@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 670;
+    font-style: normal;
+}
+
+.fundo{
+    background-color: #01B3E3;
+    background-image: url("../img/fundo_principal.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    z-index: 0;
+}
+
+
+div.logo{
+    position: absolute;
+    z-index: 1;
+    top: 1px;
+
+
+}
+
+.logo_branca{
+    height: 150px;
+    width: auto;
+    position: absolute;
+    
+}
+
+#welcome{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    position: absolute;
+    top: 35vh;
+    left: 30%;
+    text-transform: uppercase;
+    right: 30%;
+}
+
+h2{
+    font-size: 70px;
+}
+h3{
+    font-size: 20px;
+    font-style: italic;
+    text-transform: none;
+    font-weight: 200;
+}
+
+.nav{
+    height: 80px;
+    width: 100%; 
+    border: none;
+    background-color: #00345A;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.logo_nav{    
+    width: 10%;
+    position: absolute;
+    left: 10px;
+}
+
+li{
+    list-style: none;
+    
+}
+
+.links{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: white;
+
+}
+
+#idPerfil{
+    margin-right: 0;
+}
+#perfil{
+    height: 15px;
+}
+
+h1{
+
+    position: relative;
+    text-align: center;
+    font-size: 70px;
+    color: #2086DA;
+    margin-bottom: 2%;
+}
+
+strong{
+    color: #156BB2;
+    text-decoration: dashed;
+}
+
+#falarPorto{
+    color: #8DD1F1;
+    font-size: 30px;
+}
+
+#falar{
+    margin-top: 6%;
+    text-align: center;
+}
+
+.divIdeias{
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 275px;
+    
+    
+}
+
+.ideias{
+    height: 275px;
+    flex-basis: 275px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    padding: 2%;
+    text-align: center;
+
+}
+
+/* .seta{
+    border: black 2px solid;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    font-size: 50px;
+    text-align: center;
+    align-content: center;
+} */
+
+#fundoIdeias{
+    height: 340px;
+    flex-basis: 100%;
+    border: #00345A solid 0;
+    background-color: #01B3E3;
+    padding-top: 9%;
+    padding-left: 45%;
+    margin-top: -50px;
+    color: white;
+    font-size: 55px;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+strong#fundoIdeiasLabel{
+    color: #8DD1F1;
+}
