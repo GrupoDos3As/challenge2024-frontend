@@ -64,6 +64,13 @@
             font-size: 23px;
         }
 
+        nav > a:hover {
+            background-color: rgb(173, 224, 231);
+            padding: 5px;
+            border-radius: 10px;
+            color: #00345A;
+        }
+
         #lupaPesquisa {
             width: 25px;
             margin-right: 10px;
@@ -71,7 +78,6 @@
         }
 
         .container {
-            background-color: antiquewhite;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -100,6 +106,7 @@
             color: #333;
             display: inline;
             margin-right: 50px;
+            text-decoration: underline solid #333;
         }
 
         .carro {
@@ -112,19 +119,78 @@
             display: flex;
             flex-direction: column;
             margin: 50px auto 50px auto;
-            border-radius: 10px;
+            border-radius: 20px;
         }
 
         .caixaCinzaEscuro {
             background-color: #B4B4B4;
             width: 100%;
-            border-radius: 10px 10px 0px 0px;
+            border-radius: 20px 20px 0px 0px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        h3 {
+            color: #585757;
+            font-size: 20px;
+            width: 670;
+            text-decoration: underline rgb(80, 80, 80);
+            text-transform: uppercase;
+            margin-top: 15px;
+        }
+
+        .data, .preco, .nomeCarro {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .data, .preco, .nomeCarro, .pedido > p {
+            gap: 10px;
+            color: #585757;
+            font-weight: 670;
+            margin-bottom: 10px;
+        }
+
+        .container2 {
             display: flex;
         }
 
-        .caixaCinzaEscuro > h3 {
-            color: #585757;
-            font-size: 20px;
+        #fiat {
+            margin: 50px 30px;
+        }
+
+        #ferrari {
+            margin: 50px 30px;
+        }
+
+        .infos {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .infos div {
+            margin-bottom: 70px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* h3 {
+            font-size: 100px;
+        } */
+
+        .nomeCarro2, .anoCarro, .placa, .diagnostico, .a > h3 {
+            font-size: 30px; 
+        }
+
+        .nomeCarro2, .anoCarro, .placa, .diagnostico, .a > p {
+            gap: 10px;
+            color: #7e7d7d;
+            font-weight: 670;
+            margin-bottom: 10px;
         }
 
     </style>
@@ -137,10 +203,10 @@
         </div>
         <nav>
             <img src="../img/logoPorto.png" alt="Logo da Porto" id="logoPorto2">
-            <a href="">Acompanhamento</a>
-            <a href="">Registros</a>
+            <a href="acompanhamento.html">Acompanhamento</a>
+            <a href="registros.html">Registros</a>
             <a href="">Assistente</a>
-            <a href="">Autoavaliação</a>
+            <a href="autoavaliacao.html">Autoavaliação</a>
             <a href="">Perfil <img src="../img/perfil.png" alt="Ícone de Perfil" id="iconePerfil"></a>
         </nav>
     </header>
@@ -155,45 +221,92 @@
 
         <div class="caixaCinza">
             <div class="caixaCinzaEscuro">
-                <h3>Pedido Realizado</h3>
-                <p>26 de Feveiro de 2024</p>
-                <h3>Total</h3>
-                <p>R$250,00</p>
-                <h3>Carro</h3>
-                <p>Fiat UNO</p>
-                <h3>Pedido Nº123456789</h3>
+                <div class="data">
+                    <h3>Pedido Realizado</h3>
+                    <p>26 de Feveiro de 2024</p>
+                </div>
+                <div class="preco">
+                    <h3>Total</h3>
+                    <p>R$250,00</p>
+                </div>
+                <div class="nomeCarro">
+                    <h3>Carro</h3>
+                    <p>Fiat UNO</p>
+                </div>
+                <div class="pedido">
+                    <h3>Pedido Nº123456789</h3>
+                </div>
             </div>
-            <img src="../img/fiatUno.png" alt="Fiat UNO" class="carro" id="fiat">
-            <h3>Carro</h3>
-            <p>Fiat UNO</p>
-            <h3>Ano</h3>
-            <p>2007</p>
-            <h3>Placa</h3>
-            <p>RIO2A18</p>
-            <h3>Diagnóstico</h3>
-            <p>Superaquecimento</p>
+            <div class="container2">
+                <div class="carros">
+                    <img src="../img/fiatUno.png" alt="Fiat UNO" class="carro" id="fiat">
+                </div>
+                <div class="infos">
+                    <div class="nomeCarro2">
+                        <h3>Carro</h3>
+                        <p>Fiat UNO</p>
+                    </div>
+                    <div class="anoCarro">
+                        <h3>Ano</h3>
+                        <p>2007</p>
+                    </div>
+                    <div class="placa">
+                        <h3>Placa</h3>
+                        <p>RIO2A18</p>
+                    </div>
+                    <div class="diagnostico">
+                        <h3>Diagnóstico</h3>
+                        <p>Superaquecimento</p>
+                    </div>
+                    <div class="a"></div>
+                </div>
+            </div>
         </div>
 
         <div class="caixaCinza">
             <div class="caixaCinzaEscuro">
-                <h3>Pedido Realizado</h3>
-                <p>08 de Outubro de 2024</p>
-                <h3>Total</h3>
-                <p>R$600,00</p>
-                <h3>Carro</h3>
-                <p>Ferrari</p>
-                <h3>Pedido Nº12345564324</h3>
+                <div class="data">
+                    <h3>Pedido Realizado</h3>
+                    <p>08 de Outubro de 2024</p>
+                </div>
+                <div class="preco">
+                    <h3>Total</h3>
+                    <p>R$600,00</p>
+                </div>
+                <div class="nomeCarro">
+                    <h3>Carro</h3>
+                    <p>Ferrari</p>
+                </div>
+                <div class="pedido">
+                    <h3>Pedido Nº12345564324</h3>
+                </div>
             </div>
-            <img src="../img/ferrari.png" alt="Ferrari" class="carro" id="ferrari">
-            <h3>Carro</h3>
-            <p>Ferrari</p>
-            <h3>Ano</h3>
-            <p>2020</p>
-            <h3>Placa</h3>
-            <p>BRO8X09</p>
-            <h3>Diagnóstico</h3>
-            <p>Problemas no câmbio</p>
+            <div class="container2">
+                <div class="carros">
+                    <img src="../img/ferrari.png" alt="Ferrari" class="carro" id="ferrari">
+                </div>
+                <div class="infos">
+                    <div class="nomeCarro2">
+                        <h3>Carro</h3>
+                        <p>Ferrari</p>
+                    </div>
+                    <div class="anoCarro">
+                        <h3>Ano</h3>
+                        <p>2020</p>
+                    </div>
+                    <div class="placa">
+                        <h3>Placa</h3>
+                        <p>BRO8X09</p>
+                    </div>
+                    <div class="diagnostico">
+                        <h3>Diagnóstico</h3>
+                        <p>Problemas no câmbio</p>
+                    </div>
+                    <div class="a"></div>
+                </div>
+            </div>
         </div>
+
     </main>
 
     <footer>
