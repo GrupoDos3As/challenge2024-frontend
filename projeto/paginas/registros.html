@@ -4,26 +4,152 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registros / Porto Diagnósticos</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "League Spartan", sans-serif;
+        }
+
+        .fundo {
+            background-image: linear-gradient(#0059996b, #001e336b), url(https://img.freepik.com/free-photo/view-bullet-journal-still-life_23-2150360037.jpg?t=st=1713294380~exp=1713297980~hmac=6f8d27d8df2d2a4ddc80fa30432c6bee058a96b63108ce9ee17e2dc4ccfb2bc8&w=740);
+            background-position: 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .fundo :nth-child(1) {
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 85px;
+        }
+
+        #logoPorto1 {
+            width: 195px;
+            position: absolute;
+            left: 20px;
+            top: 10px;
+        }
+
+        #logoPorto2 {
+            width: 150px;
+            position: absolute;
+            left: 10px;
+            bottom: -85px;
+        }
+
+        #iconePerfil {
+            width: 20px;
+        }
+
+
+        nav {
+            background-color: #00345A;
+            padding: 30px;
+            text-align: right;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: #fff;
+            margin: 50px;
+            font-size: 23px;
+        }
+
+        #lupaPesquisa {
+            width: 25px;
+            margin-right: 10px;
+            margin-left: 5px;
+        }
+
+        .container {
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+        }
+
+        .pesquisa {
+            background-color: #D9D9D9;
+            border-radius: 10px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            margin-left: 50px;
+        }
+
+        .pesquisa > p {
+            font-size: 20px;
+            color: #585757;
+            margin-right: 400px;
+            font-weight: 700;
+        }
+
+        h2 {
+            font-size: 30px;
+            text-transform: uppercase;
+            color: #333;
+            display: inline;
+            margin-right: 50px;
+        }
+
+        .carro {
+            width: 250px;
+        }
+
+        .caixaCinza {
+            background-color: #D9D9D9;
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            margin: 50px auto 50px auto;
+            border-radius: 10px;
+        }
+
+        .caixaCinzaEscuro {
+            background-color: #B4B4B4;
+            width: 100%;
+            border-radius: 10px 10px 0px 0px;
+            display: flex;
+        }
+
+        .caixaCinzaEscuro > h3 {
+            color: #585757;
+        }
+
+    </style>
 </head>
 <body>
     <header>
-        <h1>Registros</h1>
-        <img src="" alt="Logo da Porto">
+        <div class="fundo">
+            <h1>Registros Anteriores</h1>
+            <img src="../img/logoPorto.png" alt="Logo da Porto" id="logoPorto1">
+        </div>
         <nav>
-            <img src="" alt="Logo da Porto">
-            <a href="">Sobre Nós</a>
+            <img src="../img/logoPorto.png" alt="Logo da Porto" id="logoPorto2">
+            <a href="">Acompanhamento</a>
             <a href="">Registros</a>
             <a href="">Assistente</a>
             <a href="">Autoavaliação</a>
-            <a href="">Perfil</a>
-            <img src="" alt="Ícone de Perfil">
+            <a href="">Perfil <img src="../img/perfil.png" alt="Ícone de Perfil" id="iconePerfil"></a>
         </nav>
     </header>
 
     <main>
-        <h2>Seus Diagnósticos</h2>
-        <div class="pesquisa">
-            <img src="" alt="Lupa de pesquisa">
+        <div class="container">
+            <h2>Seus Diagnósticos</h2>
+            <div class="pesquisa">
+                <p><img src="../img/lupaPesquisa.png" alt="Lupa de pesquisa" id="lupaPesquisa">Pesquisar Seus Diagnósticos</p>
+            </div>
         </div>
 
         <div class="caixaCinza">
@@ -36,7 +162,7 @@
                 <p>Fiat UNO</p>
                 <h3>Pedido Nº123456789</h3>
             </div>
-            <img src="" alt="Fiat UNO">
+            <img src="../img/fiatUno.png" alt="Fiat UNO" class="carro" id="fiat">
             <h3>Carro</h3>
             <p>Fiat UNO</p>
             <h3>Ano</h3>
@@ -57,7 +183,7 @@
                 <p>Ferrari</p>
                 <h3>Pedido Nº12345564324</h3>
             </div>
-            <img src="" alt="Ferrari">
+            <img src="../img/ferrari.png" alt="Ferrari" class="carro" id="ferrari">
             <h3>Carro</h3>
             <p>Ferrari</p>
             <h3>Ano</h3>
