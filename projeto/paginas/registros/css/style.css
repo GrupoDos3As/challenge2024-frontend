@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+
+.fundo {
+    background-image: linear-gradient(#0059996b, #001e336b), url(https://img.freepik.com/free-photo/view-bullet-journal-still-life_23-2150360037.jpg?t=st=1713294380~exp=1713297980~hmac=6f8d27d8df2d2a4ddc80fa30432c6bee058a96b63108ce9ee17e2dc4ccfb2bc8&w=740);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundo :nth-child(1) {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 85px;
+}
+
+#logoPorto1 {
+    width: 195px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+#logoPorto2 {
+    width: 150px;
+    position: absolute;
+    left: 10px;
+    bottom: -95px;
+}
+
+#iconePerfil {
+width: 20px;
+}
+
+li > a > img {
+    width: 30px;
+}
+
+li > a > img:hover {
+    background-color: rgb(173, 224, 231);
+    padding: 1px;
+    border-radius: 10px;
+}
+
+nav {
+background-color: #00345A;
+/* padding: 30px; */
+text-align: right;
+}
+
+nav > ul {
+    list-style: none;
+    /* padding: 30px; */
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+nav > ul > li {
+    margin: 35px;
+    font-size: 23px;
+}
+
+li > a {
+text-decoration: none;
+color: #fff;
+}
+
+li > a:hover {
+    text-decoration: underline solid white;
+    /* background-color: rgb(173, 224, 231);
+    padding: 5px;
+    border-radius: 10px;
+    color: #00345A; */
+}
+
+#lupaPesquisa {
+    width: 25px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.pesquisa {
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.pesquisa > p {
+    font-size: 20px;
+    color: #585757;
+    margin-right: 400px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #333;
+    display: inline;
+    margin-right: 50px;
+    text-decoration: underline solid #333;
+}
+
+.carro {
+    width: 250px;
+}
+
+.caixaCinza {
+    background-color: #D9D9D9;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto 50px auto;
+    border-radius: 20px;
+}
+
+.caixaCinzaEscuro {
+    background-color: #B4B4B4;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    color: #585757;
+    font-size: 20px;
+    width: 670;
+    text-decoration: underline rgb(80, 80, 80);
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.data, .preco, .nomeCarro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.data, .preco, .nomeCarro, .pedido > p {
+    gap: 10px;
+    color: #585757;
+    font-weight: 670;
+    margin-bottom: 10px;
+}
+
+.container2 {
+    display: flex;
+}
+
+#fiat {
+    margin: 50px 30px;
+}
+
+#ferrari {
+    margin: 50px 30px;
+}
+
+.infos {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.infos div {
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* h3 {
+    font-size: 100px;
+} */
+
+.nomeCarro2, .anoCarro, .placa, .diagnostico, .a > h3 {
+    font-size: 30px; 
+}
+
+.nomeCarro2, .anoCarro, .placa, .diagnostico, .a > p {
+    gap: 10px;
+    color: #7e7d7d;
+    font-weight: 670;
+    margin-bottom: 10px;
+}

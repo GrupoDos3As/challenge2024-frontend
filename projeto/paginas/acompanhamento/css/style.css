@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+
+#logoPorto{
+    width: 150px;
+    position: absolute;
+    left: 50px;
+}
+
+#iconePerfil {
+    width: 20px;
+}
+
+li > a > img {
+    width: 30px;
+}
+
+li > a > img:hover {
+    background-color: rgb(173, 224, 231);
+    padding: 1px;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: #00345A;
+    /* padding: 30px; */
+    text-align: right;
+    }
+    
+nav > ul {
+    list-style: none;
+    /* padding: 30px; */
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+nav > ul > li {
+    margin: 35px;
+    font-size: 23px;
+}
+
+li > a {
+text-decoration: none;
+color: #fff;
+}
+
+li > a:hover {
+    text-decoration: underline solid white;
+    /* background-color: rgb(173, 224, 231);
+    padding: 5px;
+    border-radius: 10px;
+    color: #00345A; */
+}
+
+.caixa > p {
+    padding: 10px;
+    background-color: #01B3E3;
+    display: block;
+    border-radius: 7px;
+    font-size: 24px;
+    color: white;
+    width: 30%;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+h2 {
+    color: #00345A;
+    padding: 20px;
+    font-size: 40px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.carregamento {
+    display: flex;
+    justify-content: center;
+}
+
+.carregamentoCompleto {
+    background-color: #01B3E3;
+    width: 28%;
+    height: 10px;
+    border-radius: 8px;
+    margin-right: 100px;
+}
+
+.carregamentoMetadeAzul {
+    width: 14%;
+    height: 10px;
+    background-color: #01B3E3;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.carregamentoMetadeCinza {
+    width: 14%;
+    height: 10px;
+    background-color: #B4B4B4;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.acompanhamento {
+    display: flex;
+}
+
+#carro {
+    width: 60%;
+}
+
+.carro {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.carro > h3 {
+    width: 100%;
+    font-size: 40px; 
+    color: #00345A;
+    text-transform: uppercase;
+    margin: 50px 0px 50px 0px;
+    text-align: center;
+}
+
+.carro > #carro {
+    margin-left: 160px;
+}
+
+.status {
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.status > h3 {
+    font-size: 20px;
+    color: #7E7D7D;
+    margin-top: 90px;
+    text-transform: uppercase;
+}
+
+.status > p {
+    font-size: 36px;
+    color: black;
+    margin-top: 10px;
+}
+
+#nossaLogo {
+    width: 90px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}

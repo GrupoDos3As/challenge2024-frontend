@@ -12,56 +12,79 @@
 }
 
 .fundo {
-        background-color: #01B3E3;
-        width: 100%;
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+    background-color: #01B3E3;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-    .fundo :nth-child(1) {
-        color: #fff;
-        text-transform: uppercase;
-        font-size: 85px;
-    }
+.fundo :nth-child(1) {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 85px;
+}
 
-    #logoPorto1 {
-        width: 195px;
-        position: absolute;
-        left: 20px;
-        top: 10px;
-    }
+#logoPorto1 {
+    width: 195px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
 
-    #logoPorto2 {
-        width: 150px;
-        position: absolute;
-        left: 10px;
-        bottom: -85px;
-    }
+#logoPorto2 {
+    width: 150px;
+    position: absolute;
+    left: 10px;
+    bottom: -95px;
+}
 
 #iconePerfil {
-    width: 20px;
+width: 20px;
+}
+
+li > a > img {
+    width: 30px;
+}
+
+li > a > img:hover {
+    background-color: rgb(173, 224, 231);
+    padding: 1px;
+    border-radius: 10px;
 }
 
 nav {
-    background-color: #00345A;
-    padding: 30px;
-    text-align: right;
+background-color: #00345A;
+/* padding: 30px; */
+text-align: right;
 }
 
-nav > a {
-    text-decoration: none;
-    color: #fff;
-    margin: 50px;
+nav > ul {
+    list-style: none;
+    /* padding: 30px; */
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+nav > ul > li {
+    margin: 35px;
     font-size: 23px;
 }
 
-nav > a:hover {
-    background-color: rgb(173, 224, 231);
+li > a {
+text-decoration: none;
+color: #fff;
+}
+
+li > a:hover {
+    text-decoration: underline solid white;
+    /* background-color: rgb(173, 224, 231);
     padding: 5px;
     border-radius: 10px;
-    color: #00345A;
+    color: #00345A; */
 }
 
 li{
