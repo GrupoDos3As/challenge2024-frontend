@@ -10,74 +10,75 @@
     font-style: normal;
 }
 
-.fundo{
-    background-color: #01B3E3;
-    background-image: url("../../img/fundo_principal.png");
+.fundo {
+    background-image: linear-gradient(rgba(0, 89, 153, 0.384), rgba(0, 30, 51, 0.37)), url(../../img/fundoPaginaPrincipal.png);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
     width: 100%;
-    z-index: 0;
-}
-
-
-div.logo{
-    position: absolute;
-    z-index: 1;
-    top: 1px;
-
-
-}
-
-.logo_branca{
-    height: 150px;
-    width: auto;
-    position: absolute;
-    
-}
-
-#welcome{
-    color: white;
-    font-size: 45px;
-    text-align: center;
-    position: absolute;
-    top: 35vh;
-    left: 30%;
-    text-transform: uppercase;
-    right: 30%;
-}
-
-h2{
-    font-size: 70px;
-}
-h3{
-    font-size: 20px;
-    font-style: italic;
-    text-transform: none;
-    font-weight: 200;
-}
-
-.nav{
-    height: 80px;
-    width: 100%; 
-    border: none;
-    background-color: #00345A;
+    min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
-
+    justify-content: center;
 }
 
-.logo_nav{    
-    width: 10%;
+.fundo > p {
+    font-size: 24px;
+    color: #fff;
+}
+
+.fundo :nth-child(1) {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 85px;
+}
+
+#logoPorto1 {
+    width: 195px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+#logoPorto2 {
+    width: 150px;
     position: absolute;
     left: 10px;
+    bottom: -85px;
+}
+
+#iconePerfil {
+width: 20px;
+}
+
+nav {
+background-color: #00345A;
+padding: 30px;
+text-align: right;
+}
+
+nav > a {
+text-decoration: none;
+color: #fff;
+margin: 50px;
+font-size: 23px;
+}
+
+nav > a:hover {
+background-color: rgb(173, 224, 231);
+padding: 5px;
+border-radius: 10px;
+color: #00345A;
 }
 
 li{
     list-style: none;
     
+}
+
+.ideias > img {
+    width: 256px;
 }
 
 .links{
