@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+
+.fundo {
+    background-color: #00345A;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundo :nth-child(1) {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 85px;
+}
+
+#logoPorto1 {
+    width: 195px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+#logoPorto2 {
+    width: 150px;
+    position: absolute;
+    left: 10px;
+    bottom: -95px;
+}
+
+#iconePerfil {
+width: 20px;
+}
+
+li > a > img {
+    width: 30px;
+}
+
+li > a > img:hover {
+    background-color: rgb(173, 224, 231);
+    padding: 1px;
+    border-radius: 10px;
+}
+
+nav {
+background-color: #00345A;
+/* padding: 30px; */
+text-align: right;
+}
+
+nav > ul {
+    list-style: none;
+    /* padding: 30px; */
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+nav > ul > li {
+    margin: 35px;
+    font-size: 23px;
+}
+
+li > a {
+text-decoration: none;
+color: #fff;
+}
+
+li > a:hover {
+    text-decoration: underline solid white;
+    /* background-color: rgb(173, 224, 231);
+    padding: 5px;
+    border-radius: 10px;
+    color: #00345A; */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+#maisInfo {
+    width: 95px;
+    position: absolute;
+    margin-top: 30px;
+    left: 30px;
+}
+
+.container {
+    background-color: #8DD1F1;
+    padding: 50px;
+    border-radius: 13px;
+    margin-top: 20vh;
+}
+
+.container > h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #00345A;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.container h3 {
+   font-size: 32px; 
+   color: #00345A;
+   margin-bottom: 30px;
+}
+
+.container p {
+    font-size: 26px;
+    color: #00345A;
+    margin-bottom: 30px;
+}
+
+main a {
+    background-color: #8DD1F1;
+    text-decoration: none;
+    color: #00345A;
+    text-transform: uppercase;
+    font-weight: 670;
+    font-size: 18px;
+    padding: 20px 30px;
+    border-radius: 13px;
+    margin-bottom: 50px;
+}
