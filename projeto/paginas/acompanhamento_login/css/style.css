@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+
+#logoPorto{
+    width: 150px;
+    position: absolute;
+    left: 50px;
+}
+
+li > a > img {
+    width: 30px;
+}
+
+li > a > img:hover {
+    background-color: rgb(173, 224, 231);
+    padding: 1px;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: #00345A;
+    /* padding: 30px; */
+    text-align: right;
+    }
+    
+nav > ul {
+    list-style: none;
+    /* padding: 30px; */
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 20px;
+}
+
+nav > ul > li {
+    margin: 35px;
+    font-size: 23px;
+}
+
+li > a {
+text-decoration: none;
+color: #fff;
+}
+
+li > a:hover {
+    text-decoration: underline solid white;
+    /* background-color: rgb(173, 224, 231);
+    padding: 5px;
+    border-radius: 10px;
+    color: #00345A; */
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #00345A;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 90px;
+}
+
+.informacao {
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    gap: 70px;
+}
+
+form input {
+    width: 380px;
+    outline: unset;
+}
+
+form label {
+    text-transform: uppercase;
+    color: #D6F1FB;
+    font-size: 22;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao {
+    margin-top: 150px;
+}
+
+.botao > input {
+    border: none;
+    background-color: #0094FF;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #00345A;
+    width: auto;
+    padding: 15px 40px;
+    font-weight: 700;
+}
