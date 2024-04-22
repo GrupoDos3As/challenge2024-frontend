@@ -94,71 +94,61 @@ li > a:hover {
     color: #00345A; */
 }
 
-li{
-    list-style: none;
-    
+.foto img {
+    width: 340px;
 }
 
-.links{
-    text-decoration: none;
-    list-style: none;
-    color: black;
-    margin-left: 25px;
-    margin-right: 25px;
-    color: white;
-    
-}
-
-
-#perfil{
-    height: 15px;
-}
-
-h2{
-    margin-top: 8%;
-    font-size: 40px;
-    display: block;
-    color: #00345A;
-}
-.divIntegrantes{
-    margin-top: 2%;
-    background-color: #01B3E3;
-    display: flex;
-    padding: 5%;
-    margin-bottom: 25%;
-    justify-content: space-evenly;
-
-}
-
-.integrantes{
-    width: 400px;
-    height: 580px;
-    background-color: white;
-    border-radius: 17px;
-    flex-direction: column;
-    text-align: center;
-    color: #00345A;
-    padding: 2%;
-    padding-top: 5%;
-}
-
-.integrantes img {
-    width: 332px;
-}
-
-.infos{
-    text-align: left;
-    margin-top: 5%;
-    
-}
-.nome{
-    font-size: 32px;
-    text-align: center;
+.container{
+    margin-top: 7%;
+    background-color: #8DD1F1;
     margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }
 
-
-.github{
-    color: #B4B4B4;
+.foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
 }
 
+.foto a {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 100px; */
+}
+
+.infos form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infos div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.infos label {
+    margin-left: 10px;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.infos input {
+    width: 400px;
+    border: none;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #D9D9D9;
+}

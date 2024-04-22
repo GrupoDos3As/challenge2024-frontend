@@ -19,6 +19,13 @@
     justify-content: center;
 }
 
+#nossaLogo {
+    width: 65px;
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+}
+
 .fundo :nth-child(1) {
     color: #fff;
     text-transform: uppercase;
