@@ -11,7 +11,7 @@
 }
 
 .fundo {
-    background-image: linear-gradient(rgba(0, 89, 153, 0.384), rgba(0, 30, 51, 0.37)), url(../../img/fundoPaginaPrincipal.png);
+    background-image: linear-gradient(rgba(0, 89, 153, 0.384), rgba(0, 30, 51, 0.37)), url(../img/fundoPaginaPrincipal.png);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -198,4 +198,15 @@ strong{
 
 strong#fundoIdeiasLabel{
     color: #8DD1F1;
+}
+
+footer {
+    background-color: black;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: 1px;
 }

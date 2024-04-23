@@ -143,3 +143,14 @@ p.pDescricao{
     font-weight: 400;
     text-align: justify;
 }
+
+footer {
+    background-color: black;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: 1px;
+}

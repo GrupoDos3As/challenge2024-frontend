@@ -99,6 +99,7 @@ li{
     
 }
 
+
 .links{
     text-decoration: none;
     list-style: none;
@@ -115,6 +116,7 @@ li{
 }
 
 h2{
+    margin-left: 8%;
     margin-top: 8%;
     font-size: 40px;
     display: block;
@@ -125,7 +127,7 @@ h2{
     background-color: #01B3E3;
     display: flex;
     padding: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 15%;
     justify-content: space-evenly;
 }
 
@@ -169,3 +171,13 @@ h2{
     text-transform: uppercase;
 }
 
+footer {
+    background-color: black;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: 1px;
+}

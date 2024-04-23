@@ -145,3 +145,14 @@ main a {
     border-radius: 13px;
     margin-bottom: 50px;
 }
+
+footer {
+    background-color: black;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: 1px;
+}

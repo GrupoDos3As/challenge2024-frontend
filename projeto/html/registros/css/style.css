@@ -93,6 +93,11 @@ li > a:hover {
     color: #00345A; */
 }
 
+main {
+    width: 100%;
+    min-height: 100vh;
+}
+
 #lupaPesquisa {
     width: 25px;
     margin-right: 10px;
@@ -213,4 +218,15 @@ h3 {
     color: #7e7d7d;
     font-weight: 670;
     margin-bottom: 10px;
+}
+
+footer {
+    background-color: black;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: 1px;
 }
