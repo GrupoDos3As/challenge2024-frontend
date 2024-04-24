@@ -66,6 +66,7 @@ body {
 main {
     width: 80%;
     margin: auto;
+    background-color: #fff;
 }
 
 h1 {
@@ -77,6 +78,7 @@ h1 {
 }
 
 .informacao {
+    margin-left: auto;
     margin-top: 70px;
     display: flex;
     flex-wrap: wrap;
@@ -86,7 +88,7 @@ h1 {
 }
 
 form input {
-    width: 380px;
+    width: 350px;
     outline: unset;
 }
 
@@ -109,11 +111,9 @@ form {
     align-items: center;
 }
 
-.botao {
-    margin-top: 70px;
-}
 
-.botao > input {
+form > a {
+    margin-top: 70px;
     border: none;
     background-color: #0094FF;
     font-size: 22px;
@@ -122,4 +122,5 @@ form {
     width: auto;
     padding: 15px 40px;
     font-weight: 700;
+    text-decoration: none;
 }
