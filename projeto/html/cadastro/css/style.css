@@ -1,16 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 670;
+    font-style: normal;
 }
 
 #logoPorto{
     width: 150px;
     position: absolute;
     left: 50px;
+}
+
+#nossaLogo {
+    width: 65px;
+    position: fixed;
+    right: 0;
+    bottom: 80px;
 }
 
 li > a > img {
@@ -66,7 +76,6 @@ body {
 main {
     width: 80%;
     margin: auto;
-    background-color: #fff;
 }
 
 h1 {
@@ -78,7 +87,7 @@ h1 {
 }
 
 .informacao {
-    margin-left: auto;
+    margin-left: 190px;
     margin-top: 70px;
     display: flex;
     flex-wrap: wrap;

@@ -8,7 +8,6 @@
     font-optical-sizing: auto;
     font-weight: 670;
     font-style: normal;
-    color: black;
 }
 
 .fundo {
@@ -172,7 +171,9 @@ h2{
 }
 
 footer {
+    text-align: center;
     background-color: black;
+    padding: 30px;
 }
 
 footer p {
@@ -180,4 +181,17 @@ footer p {
     text-align: center;
     padding-top: 30px;
     letter-spacing: 1px;
+}
+
+footer > a {
+    text-decoration: none;
+    background-color: #fff;
+    color: #0060af;
+    font-size: 30px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+footer > a:hover{
+    text-decoration: underline;
 }

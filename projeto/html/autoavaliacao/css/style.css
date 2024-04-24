@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 670;
+    font-style: normal;
 }
 
 .fundo {
-    background-image: linear-gradient(#0059996e, #001e3354), url(https://img.freepik.com/fotos-gratis/homem-envolvendo-o-carro-dentro-de-um-tiro-completo_23-2149385683.jpg?w=1380&t=st=1713294131~exp=1713294731~hmac=773aa8332950276ec5410f5bf35e4fa78f59eb357eb0378677f1070018d2d861);
+    background-image: linear-gradient(#0059996e, #001e3354), url(../../../img/mecanicoArrumandoCarro.png);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -152,7 +155,9 @@ h2 {
 }
 
 footer {
+    text-align: center;
     background-color: black;
+    padding: 30px;
 }
 
 footer p {
@@ -160,4 +165,17 @@ footer p {
     text-align: center;
     padding-top: 30px;
     letter-spacing: 1px;
+}
+
+footer > a {
+    text-decoration: none;
+    background-color: #fff;
+    color: #0060af;
+    font-size: 30px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+footer > a:hover{
+    text-decoration: underline;
 }

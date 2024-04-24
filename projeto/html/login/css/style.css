@@ -8,7 +8,13 @@
     font-optical-sizing: auto;
     font-weight: 670;
     font-style: normal;
-    font-size: 17;
+}
+
+#nossaLogo {
+    width: 65px;
+    position: fixed;
+    right: 0;
+    bottom: 80px;
 }
 
 h1 {
@@ -19,6 +25,11 @@ h1 {
 img {
     width: 50%;
     margin: auto;
+}
+
+p > a {
+    color: #0094FF;
+    text-decoration: none;
 }
 
 strong {
@@ -53,15 +64,17 @@ fieldset {
     border-radius: 20px;
 }
 
-.enter {
+fieldset > a {
     background-color: #0066FF;
     color: white;
     padding: 5px 20px;
     border: none;
     margin-left: 260px;
+    text-decoration: none;
 }
 
 .caixa input {
+    outline: unset;
     outline: unset;
     width: 300px;
 }

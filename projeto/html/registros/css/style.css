@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 670;
+    font-style: normal;
 }
 
 .fundo {
-    background-image: linear-gradient(#0059996b, #001e336b), url(https://img.freepik.com/free-photo/view-bullet-journal-still-life_23-2150360037.jpg?t=st=1713294380~exp=1713297980~hmac=6f8d27d8df2d2a4ddc80fa30432c6bee058a96b63108ce9ee17e2dc4ccfb2bc8&w=740);
+    background-image: linear-gradient(#0059996b, #001e336b), url(../../../img/cadernoLapis.png);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -221,7 +224,9 @@ h3 {
 }
 
 footer {
+    text-align: center;
     background-color: black;
+    padding: 30px;
 }
 
 footer p {
@@ -229,4 +234,17 @@ footer p {
     text-align: center;
     padding-top: 30px;
     letter-spacing: 1px;
+}
+
+footer > a {
+    text-decoration: none;
+    background-color: #fff;
+    color: #0060af;
+    font-size: 30px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+footer > a:hover{
+    text-decoration: underline;
 }

@@ -1,16 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 670;
+    font-style: normal;
 }
 
 #logoPorto{
     width: 150px;
     position: absolute;
     left: 50px;
+}
+
+#nossaLogo {
+    width: 65px;
+    position: fixed;
+    right: 0;
+    bottom: 80px;
 }
 
 li > a > img {
@@ -109,11 +119,8 @@ form {
     align-items: center;
 }
 
-.botao {
-    margin-top: 150px;
-}
-
-.botao > input {
+form > a {
+    margin-top: 70px;
     border: none;
     background-color: #0094FF;
     font-size: 22px;
@@ -122,4 +129,5 @@ form {
     width: auto;
     padding: 15px 40px;
     font-weight: 700;
+    text-decoration: none;
 }
