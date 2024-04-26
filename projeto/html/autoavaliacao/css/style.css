@@ -123,6 +123,9 @@ h2 {
     width: 350px;
     height: 350px;
     border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #balao {
