@@ -21,7 +21,7 @@
 
 #nossaLogo {
     width: 65px;
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 100px;
 }
@@ -122,11 +122,11 @@ h2{
     color: #00345A;
 }
 .divIntegrantes{
+    width: 100%;
     margin-top: 2%;
-    background-color: #01B3E3;
+    background-color: #8DD1F1;
     display: flex;
     padding: 5%;
-    margin-bottom: 15%;
     justify-content: space-evenly;
 }
 
@@ -194,4 +194,25 @@ footer > a {
 
 footer > a:hover{
     text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.repositorio {
+    margin: 30px;
+}
+
+.repositorio a {
+    font-size: 24px;
+    color: #00345A;
+    padding: 5px;
+}
+
+.repositorio a:hover {
+    background-color: #8DD1F1;
 }

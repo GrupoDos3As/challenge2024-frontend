@@ -185,7 +185,7 @@ strong{
     height: 340px;
     flex-basis: 100%;
     border: #00345A solid 0;
-    background-color: #01B3E3;
+    background-color: #00345A;
     padding-top: 9%;
     padding-left: 45%;
     margin-top: -50px;
@@ -193,6 +193,7 @@ strong{
     font-size: 55px;
     display: flex;
     flex-direction: row-reverse;
+    margin-bottom: 10%;
 
 }
 

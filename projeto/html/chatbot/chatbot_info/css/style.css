@@ -23,7 +23,7 @@
 
 #nossaLogo {
     width: 65px;
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 100px;
 }
