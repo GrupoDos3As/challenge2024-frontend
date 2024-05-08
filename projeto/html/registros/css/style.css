@@ -43,57 +43,45 @@
 }
 
 #logoPorto2 {
-    width: 150px;
-    position: absolute;
-    left: 10px;
-    bottom: -95px;
+    width: 130px;
 }
 
 #iconePerfil {
 width: 20px;
 }
 
-li > a > img {
-    width: 30px;
-}
-
-li > a > img:hover {
-    background-color: rgb(173, 224, 231);
-    padding: 1px;
-    border-radius: 10px;
-}
-
 nav {
-background-color: #00345A;
-/* padding: 30px; */
-text-align: right;
+    background-color: #00345A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
-nav > ul {
-    list-style: none;
-    /* padding: 30px; */
-    text-align: right;
+header ul {
+    list-style-type: none;
     display: flex;
-    justify-content: end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
+
+header li {
+    display: flex;
     align-items: center;
 }
 
-nav > ul > li {
-    margin: 35px;
-    font-size: 23px;
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px; 
+    padding: 7px;
+    border-radius: 7px;
 }
 
-li > a {
-text-decoration: none;
-color: #fff;
-}
-
-li > a:hover {
-    text-decoration: underline solid white;
-    /* background-color: rgb(173, 224, 231);
-    padding: 5px;
-    border-radius: 10px;
-    color: #00345A; */
+header a:hover {
+    text-decoration: underline;
 }
 
 main {

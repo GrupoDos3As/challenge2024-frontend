@@ -52,20 +52,6 @@
     width: 130px;
 }
 
-#iconePerfil {
-width: 12px;
-}
-
-li > a > img {
-    width: 30px;
-}
-
-li > a > img:hover {
-    background-color: rgba(173, 224, 231, 0.623);
-    padding: 1px;
-    border-radius: 10px;
-}
-
 nav {
     background-color: #00345A;
     display: flex;
@@ -80,18 +66,18 @@ header ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    gap: 20px;
 }
 
 header li {
     display: flex;
     align-items: center;
-    margin: 0px 25px;
 }
 
 header a {
     text-decoration: none;
     color: #fff;
-    font-size: 22px; 
+    font-size: 18px; 
     padding: 7px;
     border-radius: 7px;
 }
@@ -104,30 +90,33 @@ header a:hover {
     width: 256px;
 }
 
-.links{
-    text-decoration: none;
-    list-style: none;
-    color: black;
-    margin-left: 25px;
-    margin-right: 25px;
-    color: white;
-
-}
-
-#idPerfil{
-    margin-right: 0;
-}
-#perfil{
-    height: 15px;
-}
-
 h1{
-
     position: relative;
     text-align: center;
     font-size: 70px;
     color: #2086DA;
     margin-bottom: 2%;
+}
+
+.falarBot {
+    display: inline;
+    background-color: #00345A;
+    padding: 20px;
+    border-radius: 14px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.falarBot a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.falarBot i {
+    color: #bcdeee8a;
+    font-size: 25px;
+    margin-right: 5px;
 }
 
 strong{
@@ -149,45 +138,35 @@ strong{
     margin-top: 6%;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     height: 275px;
-    
-    
 }
 
 .ideias{
     height: 275px;
     flex-basis: 275px;
     border-radius: 10px;
-    background-color: #D9D9D9;
+    background-color: #8DD1F1;
     padding: 2%;
     text-align: center;
 
 }
 
-/* .seta{
-    border: black 2px solid;
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    font-size: 50px;
-    text-align: center;
-    align-content: center;
-} */
-
-#fundoIdeias{
-    height: 340px;
-    flex-basis: 100%;
-    border: #00345A solid 0;
+.fundoIdeias{
+    min-height: 440px;
     background-color: #00345A;
-    padding-top: 9%;
-    padding-left: 45%;
-    margin-top: -50px;
+    margin-top: -100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.fundoIdeias p {
     color: white;
     font-size: 55px;
-    display: flex;
-    flex-direction: row-reverse;
-    margin-bottom: 10%;
-
+    width: 40%;
+    margin: 100px 30px;
+    text-align: end;
 }
 
 strong#fundoIdeiasLabel{

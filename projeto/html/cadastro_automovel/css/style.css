@@ -25,16 +25,6 @@
     width: 12px;
 }
 
-li > a > img {
-    width: 30px;
-}
-
-li > a > img:hover {
-    background-color: rgba(173, 224, 231, 0.623);
-    padding: 1px;
-    border-radius: 10px;
-}
-
 nav {
     background-color: #00345A;
     display: flex;
@@ -49,18 +39,18 @@ header ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    gap: 20px;
 }
 
 header li {
     display: flex;
     align-items: center;
-    margin: 0px 25px;
 }
 
 header a {
     text-decoration: none;
     color: #fff;
-    font-size: 22px; 
+    font-size: 18px; 
     padding: 7px;
     border-radius: 7px;
 }
@@ -75,60 +65,56 @@ body {
     background-color: #00345A;
 }
 
-main {
-    width: 80%;
-    margin: auto;
-}
-
 h1 {
     text-transform: uppercase;
     color: #fff;
     text-align: center;
     font-size: 45px;
-    margin-top: 70px;
+    margin-top: 30px;
+}
+
+form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
 }
 
 .informacao {
-    margin-top: 100px;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: start;
+    flex-direction: column;
     gap: 70px;
 }
 
-form input {
-    width: 380px;
-    outline: unset;
-}
-
-form label {
-    text-transform: uppercase;
-    color: #D6F1FB;
-    font-size: 22;
-    margin-bottom: 10px;
+.linha1, .linha2, .linha3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
 }
 
 fieldset {
     display: flex;
     flex-direction: column;
+    gap: 10px;
     border: none;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+label {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+input {
+    width: 400px;
 }
 
 form > a {
-    margin-top: 70px;
-    border: none;
     background-color: #0094FF;
     font-size: 22px;
     text-transform: uppercase;
     color: #00345A;
-    width: auto;
     padding: 15px 40px;
     font-weight: 700;
     text-decoration: none;
