@@ -85,131 +85,107 @@ header a:hover {
 }
 
 main {
-    width: 100%;
-    min-height: 100vh;
+    margin-bottom: 10%;
 }
 
-#lupaPesquisa {
-    width: 25px;
-    margin-right: 10px;
-    margin-left: 5px;
-}
-
-.container {
+.diagnosticos {
+    margin-top: 5%;
+    margin-bottom: 2%;
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-}
-
-.pesquisa {
-    background-color: #D9D9D9;
-    border-radius: 10px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    margin-left: 50px;
-}
-
-.pesquisa > p {
-    font-size: 20px;
-    color: #585757;
-    margin-right: 400px;
-    font-weight: 700;
+    gap: 5%;
 }
 
 h2 {
-    font-size: 30px;
-    text-transform: uppercase;
+    font-size: 2.5em;
     color: #333;
-    display: inline;
-    margin-right: 50px;
-    text-decoration: underline solid #333;
 }
 
-.carro {
-    width: 250px;
-}
-
-.caixaCinza {
+.pesquisa input {
+    font-size: 1em;
+    width: 30vw;
     background-color: #D9D9D9;
-    width: 70%;
+    color: #333;
+    padding: 12px 30px 10px 7px;
+    border-radius: 12px;
+    border: #D9D9D9;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    background-color: #8DD1F1;
+    border-radius: 30px;
+}
+
+.historico {
     display: flex;
     flex-direction: column;
-    margin: 50px auto 50px auto;
-    border-radius: 20px;
+    gap: 100px;
 }
 
-.caixaCinzaEscuro {
-    background-color: #B4B4B4;
-    width: 100%;
-    border-radius: 20px 20px 0px 0px;
+.container header {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #00345A;
+    border-radius: 30px 30px 0px 0px;
+    padding: 40px 0px;
+    color: #fff;
 }
 
-h3 {
-    color: #585757;
-    font-size: 20px;
-    width: 670;
-    text-decoration: underline rgb(80, 80, 80);
-    text-transform: uppercase;
-    margin-top: 15px;
-}
-
-.data, .preco, .nomeCarro {
+.sub {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-}
-
-.data, .preco, .nomeCarro, .pedido > p {
     gap: 10px;
-    color: #585757;
-    font-weight: 670;
-    margin-bottom: 10px;
 }
 
-.container2 {
+.sub:nth-child(4) {
+    align-self: start;
+}
+
+.container h3 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.imagem {
+    max-width: 30%;
+}
+
+.imagem img {
+   width: 100%; 
+}
+
+.container main {
     display: flex;
-}
-
-#fiat {
-    margin: 50px 30px;
-}
-
-#ferrari {
-    margin: 50px 30px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 50px;
+    min-height: 100px;
+    border-radius: 0px 0px 30px 30px;
+    margin-top: 10%;
 }
 
 .infos {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.infos div {
-    margin-bottom: 70px;
+    color: #00345A;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 5%;
 }
 
-/* h3 {
-    font-size: 100px;
-} */
-
-.nomeCarro2, .anoCarro, .placa, .diagnostico, .a > h3 {
-    font-size: 30px; 
+.infos h4 {
+    font-size: 1.5em;
+    text-transform: uppercase
 }
 
-.nomeCarro2, .anoCarro, .placa, .diagnostico, .a > p {
-    gap: 10px;
-    color: #7e7d7d;
-    font-weight: 670;
-    margin-bottom: 10px;
+.infos p {
+    font-size: 1em;
 }
+
 
 footer {
     text-align: center;
