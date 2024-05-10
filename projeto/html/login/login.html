@@ -9,28 +9,31 @@
 </head>
 <body>
     <a href="../integrantes/integrantes.html"><img src="../../img/nossaLogo.png" alt="Logo do nosso site" id="nossaLogo"></a>
-    <form action="#" method="get"></form>
-        <fieldset>
-            <img src="../../img/logo_azul.png" alt="">
-            <div class="containerTitulo">
-                <h1>Acessar sua conta</h1>
-                <div class="caixa">
+    <section class="login">
+        <img src="../../img/logo_azul.png" alt="Logo da Porto Seguro">
+        <h1>Acessar sua conta</h1>
+        <form action="" method="post">
+            <div class="caixa">
+                <fieldset>
                     <label for="cpfId"><strong>CPF ou CNPJ</strong></label>
                     <input type="text" name="cpf" id="cpfId">
+                </fieldset>
+                <fieldset>
                     <label for="senhaId"><strong>Senha</strong></label>
                     <input type="password" name="senha" id="senhaId">
+                </fieldset>
+            </div>
+            <div class="extra">
+                <div class="textos">
+                    <p>Não tem uma conta? <a href="../cadastro/cadastro.html">Crie uma!</a></p>
                 </div>
+                <div class="checkbox">
+                    <input type="checkbox" name="lembrarCpf" id="lembrarCpfId" value="sim">
+                    <label for="lembrarCpfId">Lembrar meu CPF</label>
+                </div>
+                <a class="botao" href="../../index.html">Entrar</a>
             </div>
-            <div class="textos">
-                <p>Não tem uma conta? <a href="../cadastro/cadastro.html">Crie uma!</a></p>
-                <p><strong>Problemas ao acessar sua conta?</strong></p>
-            </div>
-            <div class="checkbox">
-                <input type="checkbox" name="lembrarCpf" id="lembrarCpfId" value="sim">
-                <label for="lembrarCpfId">Lembrar meu CPF</label>
-            </div>
-            <a href="../../index.html">Entrar</a>
-        </fieldset>
-    </form>
+        </form>
+    </section>
 </body>
 </html>
