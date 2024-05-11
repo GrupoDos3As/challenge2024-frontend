@@ -66,7 +66,7 @@ header ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 20px;
+    gap: 15px;
 }
 
 header li {
@@ -90,7 +90,7 @@ header a:hover {
     width: 256px;
 }
 
-h1{
+h2{
     position: relative;
     text-align: center;
     font-size: 70px;
@@ -139,21 +139,18 @@ strong{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    height: 275px;
 }
 
 .ideias{
-    height: 275px;
-    flex-basis: 275px;
+    
     border-radius: 10px;
     background-color: #8DD1F1;
     padding: 2%;
     text-align: center;
-
 }
 
 .fundoIdeias{
-    min-height: 440px;
+    height: 440px;
     background-color: #00345A;
     margin-top: -100px;
     display: flex;
@@ -164,7 +161,7 @@ strong{
 .fundoIdeias p {
     color: white;
     font-size: 55px;
-    width: 40%;
+    width: 50%;
     margin: 100px 30px;
     text-align: end;
 }
@@ -182,6 +179,7 @@ footer {
 footer p {
     color: #fff;
     text-align: center;
+    font-size: 16px;
     padding-top: 30px;
     letter-spacing: 1px;
 }
@@ -197,4 +195,107 @@ footer > a {
 
 footer > a:hover{
     text-decoration: underline;
+}
+
+@media screen and (max-width: 992px) {
+
+    #logoPorto1 {
+        width: 175px;
+    }
+
+    .fundo p {
+        font-size: 20px;
+    }
+
+    #logoPorto2 {
+        width: 110px;
+    }
+
+    header a {
+        font-size: 14px; 
+    }
+
+    h2{
+        font-size: 50px;
+    }
+
+    .falarBot {
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    .falarBot i {
+        font-size: 20px;
+    }
+
+    .fundoIdeias p {
+        font-size: 45px;
+        width: 60%;
+        margin: 140px 30px;
+    }
+
+    .ideias img {
+        width: 200px;
+    }
+
+    footer > a {
+        font-size: 25px;
+    }
+
+    footer > p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #logoPorto1 {
+        width: 155px;
+    }
+
+    .fundo p {
+        font-size: 16px;
+    }
+
+    #logoPorto2 {
+        width: 90px;
+    }
+
+    header a {
+        font-size: 10px; 
+    }
+
+    h2{
+        font-size: 40px;
+    }
+    .falarBot {
+        font-size: 10px;
+        padding: 15px;
+    }
+
+    .falarBot i {
+        font-size: 15px;
+    }
+
+    .fundoIdeias p {
+        font-size: 35px;
+        width: 50%;
+        margin: 150px 30px;
+    }
+
+    .ideias img {
+        width: 150px;
+    }
+
+    footer > a {
+        font-size: 20px;
+    }
+
+    footer > p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
 }
