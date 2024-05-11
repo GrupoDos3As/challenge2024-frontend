@@ -105,3 +105,63 @@ fieldset {
     text-decoration: none;
     padding: 10px 20px;
 }
+
+@media screen and (max-width: 992px) {
+    .login {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .login {
+        width: 350px;
+    }
+
+    h1 {
+        font-size: 1.75em;
+    }
+
+    .caixa label {
+        font-size: 1em;
+    }
+
+    .extra {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .login {
+        width: 300px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .caixa label {
+        font-size: 0.8em;
+    }
+
+    .extra {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 0px) {
+    .login {
+        width: 320px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .caixa label {
+        font-size: 1em;
+    }
+
+    .extra {
+        font-size: 1em;
+    }
+}
