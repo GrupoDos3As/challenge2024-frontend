@@ -18,11 +18,7 @@
 }
 
 #logoPorto {
-    width: 150px;
-}
-
-#iconePerfil {
-    width: 12px;
+    width: 130px;
 }
 
 nav {
@@ -39,7 +35,7 @@ header ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 20px;
+    gap: 15px;
 }
 
 header li {
@@ -107,7 +103,7 @@ label {
 }
 
 input {
-    width: 400px;
+    width: 30vh;
 }
 
 form > a {
@@ -118,4 +114,91 @@ form > a {
     padding: 15px 40px;
     font-weight: 700;
     text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+
+    #logoPorto {
+        width: 110px;
+    }
+
+    header a {
+        font-size: 14px; 
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    label {
+        font-size: 13px
+    }
+
+    input {
+        width: 25vh;
+        height: 12px;
+    }
+
+    form > a {
+        font-size: 17px;
+        padding: 12px 35px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #logoPorto {
+        width: 90px;
+    }
+
+    header a {
+        font-size: 10px; 
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    label {
+        font-size: 10px
+    }
+
+    input {
+        width: 18vh;
+        height: 10px;
+    }
+
+    form > a {
+        font-size: 13px;
+        padding: 10px 30px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    h1 {
+        font-size: 25px;
+    }
+
+    label {
+        font-size: 10px
+    }
+
+    input {
+        width: 40vh;
+        height: 8px;
+    }
+
+    form > a {
+        font-size: 10px;
+        padding: 8px 25px;
+    }
+
+    .informacao {
+        gap: 50px;
+    }
+    
+    .linha1, .linha2, .linha3 {
+        justify-content: center;
+    }
 }
