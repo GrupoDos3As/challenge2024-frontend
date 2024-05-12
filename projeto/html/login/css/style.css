@@ -106,13 +106,13 @@ fieldset {
     padding: 10px 20px;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1199px) {
     .login {
         width: 350px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
     .login {
         width: 350px;
     }
@@ -130,25 +130,8 @@ fieldset {
     }
 }
 
-@media screen and (max-width: 576px) {
-    .login {
-        width: 300px;
-    }
+@media screen and (max-width: 767px) {
 
-    h1 {
-        font-size: 1.5em;
-    }
-
-    .caixa label {
-        font-size: 0.8em;
-    }
-
-    .extra {
-        font-size: 0.8em;
-    }
-}
-
-@media screen and (max-width: 0px) {
     .login {
         width: 320px;
     }
@@ -163,5 +146,23 @@ fieldset {
 
     .extra {
         font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .login {
+        width: 300px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .caixa label {
+        font-size: 0.8em;
+    }
+
+    .extra {
+        font-size: 0.8em;
     }
 }

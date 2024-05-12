@@ -47,7 +47,7 @@ body img {
     width: 260px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 767px) {
 
     body {
         flex-direction: column-reverse ;

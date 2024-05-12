@@ -103,7 +103,7 @@ label {
 }
 
 input {
-    width: 30vh;
+    width: 290px;
 }
 
 form > a {
@@ -135,7 +135,7 @@ form > a {
     }
 
     input {
-        width: 25vh;
+        width: 220px;
         height: 12px;
     }
 
@@ -164,7 +164,7 @@ form > a {
     }
 
     input {
-        width: 18vh;
+        width: 150px;
         height: 10px;
     }
 
@@ -185,7 +185,36 @@ form > a {
     }
 
     input {
-        width: 40vh;
+        width: 300px;
+        height: 8px;
+    }
+
+    form > a {
+        font-size: 10px;
+        padding: 8px 25px;
+    }
+
+    .informacao {
+        gap: 50px;
+    }
+    
+    .linha1, .linha2, .linha3 {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 0px) {
+
+    h1 {
+        font-size: 25px;
+    }
+
+    label {
+        font-size: 10px
+    }
+
+    input {
+        width: 80vh;
         height: 8px;
     }
 

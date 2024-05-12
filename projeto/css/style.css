@@ -161,7 +161,7 @@ strong{
 .fundoIdeias p {
     color: white;
     font-size: 55px;
-    width: 50%;
+    width: 800px;
     margin: 100px 30px;
     text-align: end;
 }
@@ -197,6 +197,10 @@ footer > a:hover{
     text-decoration: underline;
 }
 
+@media screen and (max-width: 1199px) {
+
+}
+
 @media screen and (max-width: 992px) {
 
     #logoPorto1 {
@@ -212,7 +216,7 @@ footer > a:hover{
     }
 
     header a {
-        font-size: 14px; 
+        font-size: 16px; 
     }
 
     h2{
@@ -230,7 +234,7 @@ footer > a:hover{
 
     .fundoIdeias p {
         font-size: 45px;
-        width: 60%;
+        width: 700px;
         margin: 140px 30px;
     }
 
@@ -245,55 +249,12 @@ footer > a:hover{
     footer > p {
         font-size: 14px;
     }
+
 }
 
 @media screen and (max-width: 768px) {
 
-    #logoPorto1 {
-        width: 155px;
-    }
-
-    .fundo p {
-        font-size: 16px;
-    }
-
-    #logoPorto2 {
-        width: 90px;
-    }
-
-    header a {
-        font-size: 10px; 
-    }
-
-    h2{
-        font-size: 40px;
-    }
-    .falarBot {
-        font-size: 10px;
-        padding: 15px;
-    }
-
-    .falarBot i {
-        font-size: 15px;
-    }
-
-    .fundoIdeias p {
-        font-size: 35px;
-        width: 50%;
-        margin: 150px 30px;
-    }
-
-    .ideias img {
-        width: 150px;
-    }
-
-    footer > a {
-        font-size: 20px;
-    }
-
-    footer > p {
-        font-size: 12px;
-    }
+    
 }
 
 @media screen and (max-width: 576px) {
