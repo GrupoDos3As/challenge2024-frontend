@@ -107,12 +107,18 @@ fieldset {
 }
 
 @media screen and (max-width: 1199px) {
+
     .login {
         width: 350px;
     }
+
+    #nossaLogo {
+        width: 60px;
+    }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
+
     .login {
         width: 350px;
     }
@@ -128,9 +134,14 @@ fieldset {
     .extra {
         font-size: 1em;
     }
+
+    #nossaLogo {
+        width: 55px;
+    }
+
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 
     .login {
         width: 320px;
@@ -147,9 +158,14 @@ fieldset {
     .extra {
         font-size: 1em;
     }
+
+    #nossaLogo {
+        width: 45px;
+    }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 576px) {
+
     .login {
         width: 300px;
     }
@@ -164,5 +180,9 @@ fieldset {
 
     .extra {
         font-size: 0.8em;
+    }
+
+    #nossaLogo {
+        width: 40px;
     }
 }

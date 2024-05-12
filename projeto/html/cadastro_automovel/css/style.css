@@ -120,89 +120,63 @@ form > a {
     text-decoration: none;
 }
 
+@media screen and (max-width: 1199px) {
+
+    #nossaLogo {
+        width: 60px;
+    }
+
+    #logoPorto {
+        width: 120px;
+    }
+
+    header a {
+        font-size: 16px; 
+    }
+}
+
 @media screen and (max-width: 992px) {
+
+    #nossaLogo {
+        width: 55px;
+    }
 
     #logoPorto {
         width: 110px;
     }
 
     header a {
-        font-size: 14px; 
+        font-size: 12px; 
     }
 
-    h1 {
-        font-size: 35px;
-    }
-
-    label {
-        font-size: 13px
-    }
-
-    input {
-        width: 25vh;
-        height: 12px;
-    }
-
-    form > a {
-        font-size: 17px;
-        padding: 12px 35px;
-    }
 }
 
 @media screen and (max-width: 768px) {
+
+    #nossaLogo {
+        width: 45px;
+    }
 
     #logoPorto {
         width: 90px;
     }
 
+    nav {
+        flex-direction: column;
+    }
+
     header a {
-        font-size: 10px; 
-    }
-
-    h1 {
-        font-size: 30px;
-    }
-
-    label {
-        font-size: 10px
-    }
-
-    input {
-        width: 18vh;
-        height: 10px;
-    }
-
-    form > a {
-        font-size: 13px;
-        padding: 10px 30px;
+        font-size: 12px; 
     }
 }
 
 @media screen and (max-width: 576px) {
 
-    h1 {
-        font-size: 25px;
+    #nossaLogo {
+        width: 40px;
     }
 
-    label {
-        font-size: 10px
-    }
-
-    input {
-        width: 40vh;
-        height: 8px;
-    }
-
-    form > a {
-        font-size: 10px;
-        padding: 8px 25px;
-    }
-
-    .informacao {
-        gap: 50px;
-    }
-    
-    .linha1, .linha2, .linha3 {
-        justify-content: center;
+    header a {
+        font-size: 8px; 
     }
 }

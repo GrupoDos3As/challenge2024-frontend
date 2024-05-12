@@ -156,13 +156,83 @@ main {
     margin-right: 10px  ;
 }
 
-footer {
-    background-color: black;
+@media screen and (max-width: 1199px) {
+
+    #nossaLogo {
+        width: 60px;
+    }
+
+    .fundo > h1 {
+        font-size: 4em;
+    }
+
+    #logoPorto2 {
+        width: 120px;
+    }
+
+    header a {
+        font-size: 16px; 
+    }
+
 }
 
-footer p {
-    color: #fff;
-    text-align: center;
-    padding-top: 30px;
-    letter-spacing: 1px;
+@media screen and (max-width: 992px) {
+
+    #nossaLogo {
+        width: 55px;
+    }
+
+    .fundo > h1 {
+        font-size: 3em;
+    }
+
+    #logoPorto1 {
+        width: 175px;
+    }
+
+    #logoPorto2 {
+        width: 110px;
+    }
+
+    header a {
+        font-size: 12px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #nossaLogo {
+        width: 45px;
+    }
+
+    .fundo > h1 {
+        font-size: 3em;
+    }
+
+    #logoPorto2 {
+        width: 90px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    header a {
+        font-size: 12px; 
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    #nossaLogo {
+        width: 40px;
+    }
+
+    .fundo > h1 {
+        font-size: 2.5em;
+    }
+
+    header a {
+        font-size: 8px; 
+    }
 }

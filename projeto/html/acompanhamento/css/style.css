@@ -182,3 +182,122 @@ footer > a {
 footer > a:hover{
     text-decoration: underline;
 }
+
+@media screen and (max-width: 1199px) {
+
+    #nossaLogo {
+        width: 60px;
+    }
+
+    .fundo > h1 {
+        font-size: 4em;
+    }
+
+    #logoPorto2 {
+        width: 120px;
+    }
+
+    header a {
+        font-size: 16px; 
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+    #nossaLogo {
+        width: 55px;
+    }
+
+    .fundo > h1 {
+        font-size: 3em;
+    }
+
+    #logoPorto1 {
+        width: 175px;
+    }
+
+    #logoPorto2 {
+        width: 110px;
+    }
+
+    header a {
+        font-size: 12px; 
+    }
+
+    h2{
+        font-size: 50px;
+    }
+
+    footer > a {
+        font-size: 25px;
+    }
+
+    footer > p {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #nossaLogo {
+        width: 45px;
+    }
+
+    .fundo > h1 {
+        font-size: 3em;
+    }
+
+    #logoPorto2 {
+        width: 90px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    header a {
+        font-size: 12px; 
+    }
+
+    h2{
+        font-size: 40px;
+    }
+    
+    footer p {
+        font-size: 12px;
+    }
+    
+    footer > a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    #nossaLogo {
+        width: 40px;
+    }
+
+    .fundo > h1 {
+        font-size: 2.5em;
+    }
+
+    header a {
+        font-size: 8px; 
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    footer p {
+        font-size: 8px;
+    }
+    
+    footer > a {
+        font-size: 15px;
+    }
+
+}
