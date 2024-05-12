@@ -30,15 +30,15 @@
     bottom: 80px;
 }
 
-.fundo > p {
-    font-size: 24px;
-    color: #fff;
-}
-
-.fundo :nth-child(1) {
+.fundo > h1 {
+    font-size: 5em;
     color: #fff;
     text-transform: uppercase;
-    font-size: 85px;
+}
+
+.fundo > p {
+    font-size: 1.5em;
+    color: #fff;
 }
 
 #logoPorto1 {
@@ -58,7 +58,6 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
 }
 
 header ul {
@@ -93,7 +92,7 @@ header a:hover {
 h2{
     position: relative;
     text-align: center;
-    font-size: 70px;
+    font-size: 4em;
     color: #2086DA;
     margin-bottom: 2%;
 }
@@ -103,7 +102,7 @@ h2{
     background-color: #00345A;
     padding: 20px;
     border-radius: 14px;
-    font-size: 20px;
+    font-size: 1em;
     text-transform: uppercase;
 }
 
@@ -142,7 +141,6 @@ strong{
 }
 
 .ideias{
-    
     border-radius: 10px;
     background-color: #8DD1F1;
     padding: 2%;
@@ -150,7 +148,7 @@ strong{
 }
 
 .fundoIdeias{
-    height: 440px;
+    height: 400px;
     background-color: #00345A;
     margin-top: -100px;
     display: flex;
@@ -160,8 +158,8 @@ strong{
 
 .fundoIdeias p {
     color: white;
-    font-size: 55px;
-    width: 800px;
+    font-size: 2em;
+    width: 500px;
     margin: 100px 30px;
     text-align: end;
 }
@@ -199,24 +197,52 @@ footer > a:hover{
 
 @media screen and (max-width: 1199px) {
 
+    #nossaLogo {
+        width: 60px;
+    }
+
+    .fundo > h1 {
+        font-size: 4em;
+    }
+
+    #logoPorto2 {
+        width: 120px;
+    }
+
+    header a {
+        font-size: 16px; 
+    }
+
 }
 
 @media screen and (max-width: 992px) {
 
-    #logoPorto1 {
-        width: 175px;
+    #nossaLogo {
+        width: 55px;
     }
 
+    .fundo > h1 {
+        font-size: 3em;
+    }
+    
     .fundo p {
-        font-size: 20px;
+        font-size: 1em;
+    }
+
+    #logoPorto1 {
+        width: 175px;
     }
 
     #logoPorto2 {
         width: 110px;
     }
 
+    nav {
+        padding: 0px;
+    }
+
     header a {
-        font-size: 16px; 
+        font-size: 12px; 
     }
 
     h2{
@@ -230,12 +256,6 @@ footer > a:hover{
 
     .falarBot i {
         font-size: 20px;
-    }
-
-    .fundoIdeias p {
-        font-size: 45px;
-        width: 700px;
-        margin: 140px 30px;
     }
 
     .ideias img {
@@ -254,9 +274,127 @@ footer > a:hover{
 
 @media screen and (max-width: 768px) {
 
+    #nossaLogo {
+        width: 45px;
+    }
+
+    .fundo > h1 {
+        font-size: 3em;
+    }
     
+    .fundo > p {
+        font-size: 1em;
+        color: #fff;
+    }
+
+    #logoPorto2 {
+        width: 90px;
+    }
+
+    nav {
+        background-color: #00345A;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header a {
+        font-size: 12px; 
+    }
+
+    h2{
+        font-size: 40px;
+    }
+    
+    .falarBot {
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .falarBot i {
+        font-size: 15px;
+    }
+
+    .divIdeias{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .ideias{
+        width: 230px;
+    }
+
+    .ideias img {
+        width: 100%;
+    }
+
+    .fundoIdeias {
+        height: 350px;
+    }
+
+    .fundoIdeias p {
+        font-size: 1.5em;
+        width: 50%;
+        margin: auto;
+    }
+    
+    footer p {
+        font-size: 12px;
+    }
+    
+    footer > a {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 576px) {
+
+    #nossaLogo {
+        width: 40px;
+    }
+
+    .fundo > h1 {
+        font-size: 2.5em;
+    }
+    
+    .fundo > p {
+        font-size: 0.8em;
+        color: #fff;
+    }
+
+    header a {
+        font-size: 8px; 
+    }
+
+    h2{
+        font-size: 30px;
+    }
+    
+    .falarBot {
+        font-size: 8px;
+        padding: 10px;
+    }
+
+    .falarBot i {
+        font-size: 12px;
+    }
+
+    .fundoIdeias p {
+        font-size: 1.25em;
+    }
+
+    .ideias{
+        width: 180px;
+    }
+
+    footer p {
+        font-size: 8px;
+    }
+    
+    footer > a {
+        font-size: 15px;
+    }
 
 }
