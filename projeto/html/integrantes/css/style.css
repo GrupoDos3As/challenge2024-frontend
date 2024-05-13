@@ -101,35 +101,40 @@ h2{
     gap: 50px;
 }
 
-.integrantes {
+.pessoa {
     background-color: #fff;
-    padding: 40px;
+    padding: 30px;
+    width: 300px;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
     gap: 10px;
 }
 
-.integrantes img {
-    width: 350px;
+.info {
+    align-self: start;
+} 
+
+.pessoa img {
+    width: 100%;
 }
 
 .info {
     display: flex;
     flex-direction: column;
-    align-items: start;
     justify-content: center;
     gap: 10px;
 }
 
 .info h3 {
-    font-size: 2em;
+    font-size: 1.5em;
     color: #00345A;
-    align-self: center;
 }
 
 .info a {
+    font-size: 0.8em;
     text-decoration: none;
     text-transform: uppercase;
     color: #727272;
@@ -142,7 +147,7 @@ h2{
 
 .info p {
     color: #00345A;
-    font-size: 1.1em;
+    font-size: 0.8em;
 }
 
 .repositorio {
@@ -204,6 +209,23 @@ footer > a:hover{
         font-size: 16px; 
     }
 
+    .pessoa {
+        width: 270px;
+    }
+
+    .info h3 {
+        font-size: 1.3em;
+    }
+
+    .info a {
+        font-size: 0.8em;
+    }
+    
+    .info p {
+        color: #00345A;
+        font-size: 0.8em;
+    }
+
 }
 
 @media screen and (max-width: 992px) {
@@ -229,7 +251,11 @@ footer > a:hover{
     }
 
     h2{
-        font-size: 50px;
+        font-size: 2.2em;
+    }
+
+    .repositorio a {
+        font-size: 1.5em;
     }
 
     footer > a {
@@ -264,8 +290,17 @@ footer > a:hover{
         font-size: 12px; 
     }
 
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
     h2{
-        font-size: 40px;
+        font-size: 2em;
+    }
+
+    .repositorio a {
+        font-size: 1.3em;
     }
     
     footer p {
@@ -284,7 +319,7 @@ footer > a:hover{
     }
 
     .fundo > h1 {
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
 
     header a {
@@ -293,6 +328,27 @@ footer > a:hover{
 
     h2{
         font-size: 30px;
+    }
+
+    .pessoa {
+        width: 240px;
+    }
+
+    .info h3 {
+        font-size: 1em;
+    }
+
+    .info a {
+        font-size: 0.6em;
+    }
+    
+    .info p {
+        color: #00345A;
+        font-size: 0.6em;
+    }
+
+    .repositorio a {
+        font-size: 1.1em;
     }
 
     footer p {

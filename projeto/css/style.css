@@ -85,7 +85,7 @@ header a:hover {
     text-decoration: underline;
 }
 
-.ideias > img {
+.ideias img {
     width: 256px;
 }
 
@@ -258,8 +258,12 @@ footer > a:hover{
         font-size: 20px;
     }
 
+    .ideias {
+        width: 10vw;
+    }
+
     .ideias img {
-        width: 200px;
+        width: 100%;
     }
 
     footer > a {
