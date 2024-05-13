@@ -123,3 +123,8 @@ form > a {
     font-weight: 700;
     text-decoration: none;
 }
+
+.formulario{
+    padding: 5px;
+    border-radius: 50px;
+}
