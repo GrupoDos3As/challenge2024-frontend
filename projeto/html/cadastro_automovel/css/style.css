@@ -18,7 +18,7 @@
 }
 
 #logoPorto {
-    width: 150px;
+    width: 130px;
 }
 
 #iconePerfil {
@@ -39,7 +39,7 @@ header ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 20px;
+    gap: 15px;
 }
 
 header li {
@@ -107,7 +107,7 @@ label {
 }
 
 input {
-    width: 400px;
+    width: 35vh;
 }
 
 form > a {
@@ -119,8 +119,67 @@ form > a {
     font-weight: 700;
     text-decoration: none;
 }
-
 .formularios{
     padding: 5px;
     border-radius: 50px;
+}
+@media screen and (max-width: 1199px) {
+
+    #nossaLogo {
+        width: 60px;
+    }
+
+    #logoPorto {
+        width: 120px;
+    }
+
+    header a {
+        font-size: 16px; 
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    #nossaLogo {
+        width: 55px;
+    }
+
+    #logoPorto {
+        width: 110px;
+    }
+
+    header a {
+        font-size: 12px; 
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #nossaLogo {
+        width: 45px;
+    }
+
+    #logoPorto {
+        width: 90px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    header a {
+        font-size: 12px; 
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    #nossaLogo {
+        width: 40px;
+    }
+
+    header a {
+        font-size: 8px; 
+    }
 }

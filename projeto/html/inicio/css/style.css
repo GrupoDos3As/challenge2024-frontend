@@ -36,13 +36,56 @@ div {
 div > a {
     text-align: center;
     text-decoration: none;
-    font-size: 23px;
+    font-size: 1.4em;
     color: #156BB2;
-    padding: 10px 50px;
+    padding: 10px 40px;
     background-color: white;
     border-radius: 15px;
 }
 
-img {
-    width: 17%;
+body img {
+    width: 260px;
+}
+
+@media screen and (max-width: 1199px) {
+
+    #nossaLogo {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    #nossaLogo {
+        width: 55px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        flex-direction: column-reverse ;
+        gap: 0px;
+    }
+
+    div > a {
+        font-size: 1.2em;
+        padding: 10px 30px;
+    }
+
+    body img {
+        width: 220px;
+    }
+
+    #nossaLogo {
+        width: 45px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    #nossaLogo {
+        width: 40px;
+    }
 }
