@@ -66,6 +66,7 @@ header ul {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 15px;
+    margin-right: 20px;
 }
 
 header li {
@@ -86,7 +87,7 @@ header a:hover {
 }
 
 .ideias img {
-    width: 256px;
+    width: 100%;
 }
 
 h2{
@@ -136,7 +137,8 @@ strong{
 .divIdeias{
     margin-top: 6%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 50px;
     flex-wrap: wrap;
 }
 
@@ -145,6 +147,7 @@ strong{
     background-color: #8DD1F1;
     padding: 2%;
     text-align: center;
+    width: 300px;
 }
 
 .fundoIdeias{
@@ -195,27 +198,102 @@ footer > a:hover{
     text-decoration: underline;
 }
 
-@media screen and (max-width: 1199px) {
+@media  screen and (max-width: 1000px) {
+    .ideias {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 906px) {
 
     #nossaLogo {
-        width: 60px;
+        width: 55px;
     }
 
     .fundo > h1 {
         font-size: 4em;
     }
 
-    #logoPorto2 {
-        width: 120px;
+    nav {
+        flex-direction: column;
     }
 
     header a {
-        font-size: 16px; 
+        font-size: 15px; 
+    }
+
+    h2{
+        font-size: 3rem;
+    }
+
+    .falarBot {
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    .falarBot i {
+        font-size: 20px;
+    }
+
+    .fundoIdeias p {
+        font-size: 2rem;
+    }
+
+    footer p {
+        font-size: 0.8em;
+    }
+    
+    footer > a {
+        font-size: 1.5em;
     }
 
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 670px) {
+
+    #nossaLogo {
+        width: 40px;
+    }
+
+    h2{
+        font-size: 2.5rem;
+    }
+
+    .falarBot {
+        font-size: 0.7em;
+        padding: 12px;
+    }
+
+    .falarBot i {
+        font-size: 1.5em;
+    }
+    
+    .divIdeias{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .ideias{
+        width: 30%;
+    }
+
+    .fundoIdeias{
+        height:300px;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+    }
+
+    .fundoIdeias p {
+        font-size: 1.5rem;
+        text-align: center;
+        width: 70%;
+    }
+
+}
+
+/* @media screen and (max-width: 992px) {
 
     #nossaLogo {
         width: 55px;
@@ -401,4 +479,4 @@ footer > a:hover{
         font-size: 15px;
     }
 
-}
+} */
