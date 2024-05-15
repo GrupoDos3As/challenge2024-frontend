@@ -29,10 +29,10 @@
     bottom: 100px;
 }
 
-.fundo :nth-child(1) {
+.fundo > h1 {
+    font-size: 5em;
     color: #fff;
     text-transform: uppercase;
-    font-size: 85px;
 }
 
 #logoPorto1 {
@@ -46,17 +46,12 @@
     width: 130px;
 }
 
-#iconePerfil {
-width: 20px;
-}
-
 nav {
     background-color: #00345A;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
 }
 
 header ul {
@@ -64,7 +59,8 @@ header ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 20px;
+    gap: 15px;
+    margin-right: 20px;
 }
 
 header li {
@@ -125,10 +121,23 @@ h2 {
     gap: 100px;
 }
 
+.container :nth-child(1)  {
+    grid-area: 's1';
+}
+.container :nth-child(2)  {
+    grid-area: 's2';
+}
+.container :nth-child(1)  {
+    grid-area: 's2';
+}
+.container :nth-child(1)  {
+    grid-area: 's2';
+}
+
 .container header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-areas: 's1 s2 s3 s4';
+    gap: 20px;
     background-color: #00345A;
     border-radius: 30px 30px 0px 0px;
     padding: 40px 0px;
@@ -142,31 +151,35 @@ h2 {
     gap: 10px;
 }
 
-.sub:nth-child(4) {
-    align-self: start;
+.sub p {
+    font-size: 0.9em;
 }
 
-.container h3 {
+.sub h3 {
     text-transform: uppercase;
     font-size: 1.5em;
 }
 
 .imagem {
-    max-width: 30%;
+    width: 250px;
 }
 
-.imagem img {
+img {
    width: 100%; 
 }
 
 .container main {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap: 50px;
+    flex-direction: row;    
+    justify-content: space-around;
     min-height: 100px;
     border-radius: 0px 0px 30px 30px;
     margin-top: 10%;
+}
+
+.texto {
+    display: flex;
+    gap: 30px;
 }
 
 .infos {
@@ -213,74 +226,32 @@ footer > a:hover{
     text-decoration: underline;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1200px) {
 
-    #nossaLogo {
-        width: 60px;
+    .container header {
+        grid-template-areas: 
+        's1 s4'
+        's3 s2';
     }
 
-    .fundo > h1 {
-        font-size: 4em;
+    .container main {
+        align-items: center;
     }
 
-    #logoPorto2 {
-        width: 120px;
-    }
-
-    header a {
-        font-size: 16px; 
+    .texto {
+        flex-direction: column;
     }
 
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 930px) {
 
     #nossaLogo {
         width: 55px;
     }
 
     .fundo > h1 {
-        font-size: 3em;
-    }
-
-    #logoPorto1 {
-        width: 175px;
-    }
-
-    #logoPorto2 {
-        width: 110px;
-    }
-
-    header a {
-        font-size: 12px; 
-    }
-
-    h2{
-        font-size: 50px;
-    }
-
-    footer > a {
-        font-size: 25px;
-    }
-
-    footer > p {
-        font-size: 14px;
-    }
-
-}
-
-@media screen and (max-width: 768px) {
-
-    #nossaLogo {
-        width: 45px;
-    }
-
-    .fundo > h1 {
-        font-size: 3em;
-    }
-
-    #logoPorto2 {
-        width: 90px;
+        font-size: 4em;
     }
 
     nav {
@@ -288,46 +259,25 @@ footer > a:hover{
     }
 
     header a {
-        font-size: 12px; 
+        font-size: 15px; 
     }
 
-    h2{
-        font-size: 40px;
-    }
-    
+
     footer p {
-        font-size: 12px;
+        font-size: 0.8em;
     }
     
     footer > a {
-        font-size: 18px;
+        font-size: 1.5em;
     }
+
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 670px) {
 
     #nossaLogo {
         width: 40px;
     }
 
-    .fundo > h1 {
-        font-size: 2.5em;
-    }
-
-    header a {
-        font-size: 8px; 
-    }
-
-    h2{
-        font-size: 30px;
-    }
-
-    footer p {
-        font-size: 8px;
-    }
-    
-    footer > a {
-        font-size: 15px;
-    }
 
 }
