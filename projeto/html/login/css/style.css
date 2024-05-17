@@ -106,83 +106,30 @@ fieldset {
     padding: 10px 20px;
 }
 
-@media screen and (max-width: 1199px) {
-
-    .login {
-        width: 350px;
-    }
+@media screen and (max-width: 765px) {
 
     #nossaLogo {
-        width: 60px;
+        width: 50px;
     }
-}
-
-@media screen and (max-width: 992px) {
-
-    .login {
-        width: 350px;
-    }
-
-    h1 {
-        font-size: 1.75em;
-    }
-
-    .caixa label {
-        font-size: 1em;
-    }
-
-    .extra {
-        font-size: 1em;
-    }
-
-    #nossaLogo {
-        width: 55px;
-    }
-
-}
-
-@media screen and (max-width: 768px) {
-
-    .login {
-        width: 320px;
-    }
-
-    h1 {
-        font-size: 1.5em;
-    }
-
-    .caixa label {
-        font-size: 1em;
-    }
-
-    .extra {
-        font-size: 1em;
-    }
-
-    #nossaLogo {
-        width: 45px;
-    }
-}
-
-@media screen and (max-width: 576px) {
 
     .login {
         width: 300px;
     }
 
+    .login img {
+        width: 150px;
+    }
+
     h1 {
         font-size: 1.5em;
     }
 
     .caixa label {
-        font-size: 0.8em;
+        font-size: 0.75em;
     }
 
     .extra {
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 
-    #nossaLogo {
-        width: 40px;
-    }
 }

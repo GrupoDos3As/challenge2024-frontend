@@ -80,14 +80,8 @@ form {
 
 .informacao {
     display: flex;
-    flex-direction: column;
-    gap: 70px;
-}
-
-.linha1, .linha2, .linha3 {
-    display: flex;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 60px;
 }
 
 fieldset {
@@ -95,6 +89,7 @@ fieldset {
     flex-direction: column;
     gap: 10px;
     border: none;
+    width: 300px;
 }
 
 label {
@@ -121,45 +116,10 @@ form > a {
     border-radius: 50px;
 }
 
-@media screen and (max-width: 1199px) {
-
-    #nossaLogo {
-        width: 60px;
-    }
-
-    #logoPorto {
-        width: 120px;
-    }
-
-    header a {
-        font-size: 16px; 
-    }
-}
-
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 930px) {
 
     #nossaLogo {
         width: 55px;
-    }
-
-    #logoPorto {
-        width: 110px;
-    }
-
-    header a {
-        font-size: 12px; 
-    }
-
-}
-
-@media screen and (max-width: 768px) {
-
-    #nossaLogo {
-        width: 45px;
-    }
-
-    #logoPorto {
-        width: 90px;
     }
 
     nav {
@@ -167,17 +127,7 @@ form > a {
     }
 
     header a {
-        font-size: 12px; 
-    }
-}
-
-@media screen and (max-width: 576px) {
-
-    #nossaLogo {
-        width: 40px;
+        font-size: 15px; 
     }
 
-    header a {
-        font-size: 8px; 
-    }
 }

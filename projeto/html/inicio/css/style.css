@@ -47,45 +47,14 @@ body img {
     width: 260px;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 600px) {
 
     #nossaLogo {
-        width: 60px;
+        width: 50px;
     }
-}
-
-@media screen and (max-width: 992px) {
-
-    #nossaLogo {
-        width: 55px;
-    }
-
-}
-
-@media screen and (max-width: 768px) {
 
     body {
-        flex-direction: column-reverse ;
+        flex-direction: column-reverse;
         gap: 0px;
-    }
-
-    div > a {
-        font-size: 1.2em;
-        padding: 10px 30px;
-    }
-
-    body img {
-        width: 220px;
-    }
-
-    #nossaLogo {
-        width: 45px;
-    }
-}
-
-@media screen and (max-width: 576px) {
-
-    #nossaLogo {
-        width: 40px;
     }
 }
