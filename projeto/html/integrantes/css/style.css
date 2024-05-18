@@ -26,10 +26,10 @@
     bottom: 100px;
 }
 
-.fundo :nth-child(1) {
+.fundo h1 {
     color: #fff;
     text-transform: uppercase;
-    font-size: 85px;
+    font-size: 5em;
 }
 
 #logoPorto1 {
@@ -104,7 +104,6 @@ h2{
 .pessoa {
     background-color: #fff;
     padding: 30px;
-    width: 300px;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
@@ -118,7 +117,7 @@ h2{
 } 
 
 .pessoa img {
-    width: 100%;
+    width: 250px;
 }
 
 .info {
@@ -129,12 +128,12 @@ h2{
 }
 
 .info h3 {
-    font-size: 1.5em;
+    font-size: 2em;
     color: #00345A;
 }
 
 .info a {
-    font-size: 0.8em;
+    font-size: 1em;
     text-decoration: none;
     text-transform: uppercase;
     color: #727272;
@@ -147,7 +146,7 @@ h2{
 
 .info p {
     color: #00345A;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 .repositorio {
@@ -191,95 +190,34 @@ footer > a:hover{
     text-decoration: underline;
 }
 
-@media screen and (max-width: 1199px) {
-
-    #nossaLogo {
-        width: 60px;
-    }
-
-    .fundo > h1 {
-        font-size: 4em;
-    }
-
-    #logoPorto2 {
-        width: 120px;
-    }
-
-    header a {
-        font-size: 16px; 
-    }
-
-    .pessoa {
-        width: 270px;
+@media screen and (max-width: 1144px) {
+    
+    .pessoa img {
+        width: 200px;
     }
 
     .info h3 {
-        font-size: 1.3em;
+        font-size: 1.75em;
     }
 
     .info a {
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
-    
+
     .info p {
-        color: #00345A;
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 930px) {
 
     #nossaLogo {
         width: 55px;
     }
 
     .fundo > h1 {
-        font-size: 3em;
-    }
-
-    #logoPorto1 {
-        width: 175px;
-    }
-
-    #logoPorto2 {
-        width: 110px;
-    }
-
-    header a {
-        font-size: 12px; 
-    }
-
-    h2{
-        font-size: 2.2em;
-    }
-
-    .repositorio a {
-        font-size: 1.5em;
-    }
-
-    footer > a {
-        font-size: 25px;
-    }
-
-    footer > p {
-        font-size: 14px;
-    }
-
-}
-
-@media screen and (max-width: 768px) {
-
-    #nossaLogo {
-        width: 45px;
-    }
-
-    .fundo > h1 {
-        font-size: 3em;
-    }
-
-    #logoPorto2 {
-        width: 90px;
+        font-size: 4em;
     }
 
     nav {
@@ -287,7 +225,27 @@ footer > a:hover{
     }
 
     header a {
-        font-size: 12px; 
+        font-size: 15px; 
+    }
+
+    footer p {
+        font-size: 0.8em;
+    }
+    
+    footer > a {
+        font-size: 1.5em;
+    }
+
+}
+
+@media screen and (max-width: 664px) {
+
+    #nossaLogo {
+        width: 45px;
+    }
+
+    h2{
+        font-size: 2em;
     }
 
     .container {
@@ -295,68 +253,24 @@ footer > a:hover{
         align-items: center;
     }
 
-    h2{
-        font-size: 2em;
+    .pessoa img {
+        width: 150px;
     }
 
-    .repositorio a {
-        font-size: 1.3em;
-    }
-    
-    footer p {
-        font-size: 12px;
-    }
-    
-    footer > a {
-        font-size: 18px;
-    }
-}
 
-@media screen and (max-width: 576px) {
-
-    #nossaLogo {
-        width: 40px;
-    }
-
-    .fundo > h1 {
+    .info h3 {
         font-size: 1.5em;
     }
 
-    header a {
-        font-size: 8px; 
-    }
-
-    h2{
-        font-size: 30px;
-    }
-
-    .pessoa {
-        width: 240px;
-    }
-
-    .info h3 {
-        font-size: 1em;
-    }
-
     .info a {
-        font-size: 0.6em;
+        font-size: 0.8em;
     }
-    
+
     .info p {
-        color: #00345A;
-        font-size: 0.6em;
+        font-size: 0.8em;
     }
 
     .repositorio a {
-        font-size: 1.1em;
+        font-size: 1.25em;
     }
-
-    footer p {
-        font-size: 8px;
-    }
-    
-    footer > a {
-        font-size: 15px;
-    }
-
 }
