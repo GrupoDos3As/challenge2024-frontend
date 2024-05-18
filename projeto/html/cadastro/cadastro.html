@@ -6,6 +6,7 @@
     <title>Cadastro / Porto Diagnósticos</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
     <header>
@@ -25,46 +26,45 @@
         <h1>Cadastro</h1>
     </header>
     <main>
-        <form action="" method="get">
-            <div class="informacao">
-                <fieldset class="f1">
-                    <label for="nomeCompletoId">Nome Completo</label>
-                    <input type="text" name="nomeCompleto" id="nomeCompletoId" class="formularios">
-                </fieldset>
-                <fieldset class="f2">
-                    <label for="emailId">Email</label>
-                    <input type="text" name="email" id="emailId" class="formularios">
-                </fieldset>
-                <fieldset class="f3">
-                    <label for="senhaId">Senha</label>
-                    <input type="password" name="senha" id="senhaId" class="formularios">
-                </fieldset>
-                <fieldset class="f4">
-                    <label for="cpfId">CPF</label>
-                    <input type="text" name="cpf" id="cpfId" class="formularios">
-                </fieldset>
-                <fieldset class="f5">
-                    <label for="enderecoId">Endereço</label>
-                    <input type="text" name="endereco" id="enderecoId" class="formularios">
-                </fieldset>
-                <fieldset class="f6">
-                    <label for="complementoId">Complemento</label>
-                    <input type="text" name="complemento" id="complementoId" class="formularios">
-                </fieldset>
-                <fieldset class="f7">
-                    <label for="dataNascimentoId">Data de Nascimento</label>
-                    <input type="date" name="dataNascimento" id="dataNascimentoId" class="formularios">
-                </fieldset>
-                <fieldset class="f8">
-                    <label for="celularId">Celular</label>
-                    <input type="tel" name="celular" id="celularId" class="formularios" >
-                </fieldset>
-            </div>
-            <a href="../cadastro_automovel/cadastro_automovel.html">Avançar</a>
-        </form>
+        <div class="container">
+            <form action="" method="post" id="form">
+                <div class="informacao">
+                    <fieldset>
+                        <label for="nomeCompletoId">Nome Completo</label>
+                        <input type="text" name="nomeCompleto" id="nomeCompletoId" class="formularios" placeholder="Digite seu nome completo" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="emailId">Email</label>
+                        <input type="text" name="email" id="emailId" class="formularios" placeholder="Digite seu e-mail" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="senhaId">Senha</label>
+                        <input type="password" name="senha" id="senhaId" class="formularios" placeholder="Crie sua senha" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="cpfId">CPF</label>
+                        <input type="text" name="cpf" id="cpfId" class="formularios" placeholder="Informe seu cpf" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="enderecoId">Endereço</label>
+                        <input type="text" name="endereco" id="enderecoId" class="formularios" placeholder="Informe seu endereço" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="complementoId">Complemento</label>
+                        <input type="text" name="complemento" id="complementoId" class="formularios" placeholder="Digite o complemento de seu endereço">
+                    </fieldset>
+                    <fieldset>
+                        <label for="dataNascimentoId">Data de Nascimento</label>
+                        <input type="date" name="dataNascimento" id="dataNascimentoId" class="formularios" placeholder="Informe sua data de nascimento" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="celularId">Celular</label>
+                        <input type="tel" name="celular" id="celularId" class="formularios" placeholder="(xx) xxxx-xxxx" required>
+                    </fieldset>
+                </div>
+                <button type="submit">Continuar</button>
+            </form>
+        </div>
     </main>
-    <footer>
-
-    </footer>
 </body>
 </html>

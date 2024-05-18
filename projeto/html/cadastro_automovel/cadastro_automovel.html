@@ -6,6 +6,7 @@
     <title>Cadastro / Porto Diagnósticos</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
     <header>
@@ -25,34 +26,33 @@
         <h1>Seu Automóvel</h1>
     </header>
     <main>
-        <form action="" method="get">
-            <div class="informacao">
-                <fieldset>
-                    <label for="placaId">Placa</label>
-                    <input type="text" name="placa" id="placaId" class="formularios">
-                </fieldset>
-                <fieldset>
-                    <label for="cnhId">CNH</label>
-                    <input type="text" name="cnh" id="cnhId" class="formularios">
-                </fieldset>
-                <fieldset>
-                    <label for="vencimentoCnhId">Vencimento CNH</label>
-                    <input type="password" name="vencimentoCnh" id="vencimentoCnhId" class="formularios">
-                </fieldset>
-                <fieldset>
-                    <label for="modeloId">Modelo do Automóvel</label>
-                    <input type="text" name="modelo" id="modeloId" class="formularios">
-                </fieldset>
-                <fieldset>
-                    <label for="anoDoAutomovelId">Ano de aquisição do automóvel</label>
-                    <input type="text" name="anoDoAutomovel" id="anoDoAutomovelId" class="formularios">
-                </fieldset>
-            </div>
-            <a href="../../index.html">Finalizar</a>
-        </form>
+        <div class="container">
+            <form action="" method="post">
+                <div class="informacao">
+                    <fieldset>
+                        <label for="placaId">Placa</label>
+                        <input type="text" name="placa" id="placaId" class="formularios" placeholder="Digite a placa do veículo" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="cnhId">CNH</label>
+                        <input type="text" name="cnh" id="cnhId" class="formularios" placeholder="Informe o número da cnh" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="vencimentoCnhId">Vencimento CNH</label>
+                        <input type="date" name="vencimentoCnh" id="vencimentoCnhId" class="formularios" placeholder="Informe o vencimento de sua cnh" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="modeloId">Modelo do Automóvel</label>
+                        <input type="text" name="modelo" id="modeloId" class="formularios" placeholder="Digite o modelo do automóvel" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="anoDoAutomovelId">Ano de aquisição do automóvel</label>
+                        <input type="text" name="anoDoAutomovel" id="anoDoAutomovelId" class="formularios" placeholder="Informe o ano de aquisição do automóvel">
+                    </fieldset>
+                </div>
+                <button type="submit">Finalizar</button>
+            </form>
+        </div>
     </main>
-    <footer>
-
-    </footer>
 </body>
 </html>
