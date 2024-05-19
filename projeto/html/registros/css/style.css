@@ -80,6 +80,14 @@ header a:hover {
     text-decoration: underline;
 }
 
+.icone-menu-celular {
+    display: none;
+}
+
+.menu-celular {
+    display: none;
+}
+
 main {
     margin-bottom: 10%;
 }
@@ -254,14 +262,40 @@ footer > a:hover{
         font-size: 4em;
     }
 
-    nav {
+    nav li {
+        display: none;
+    }
+
+    .icone-menu-celular {
+        display: block;
+        margin-right: 15px;
+    }
+
+    .icone-menu-celular button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .menu-celular {
+        background-color: #00345A;
+    }
+
+    .menu-celular ul {
+        display: flex;
         flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
     }
 
-    header a {
-        font-size: 15px; 
+    .menu-celular li {
+        display: block;
+        padding-top: 1.2rem;
     }
 
+    .open {
+        display: block;
+    }
 
     footer p {
         font-size: 0.8em;
@@ -270,6 +304,7 @@ footer > a:hover{
     footer > a {
         font-size: 1.5em;
     }
+
 
 }
 

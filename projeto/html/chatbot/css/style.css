@@ -56,7 +56,6 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
 }
 
 header ul {
@@ -64,7 +63,8 @@ header ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 20px;
+    gap: 15px;
+    margin-right: 20px;
 }
 
 header li {
@@ -84,6 +84,14 @@ header a:hover {
     text-decoration: underline;
 }
 
+.icone-menu-celular {
+    display: none;
+}
+
+.menu-celular {
+    display: none;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -97,11 +105,6 @@ main {
 #maisInfo {
     width: 95px;
 }
-
-/* #nossaLogo {
-    width: 70px;
-    border-radius: 210px;
-} */
 
 #enviar {
     width: 45px;
@@ -135,14 +138,12 @@ main {
     font-size: 24px;
     color: #fff;
     background-color: #0066FF;
-    /* margin-left: 50px; */
 }
 
 .mensagem {
     display: flex;
     align-items: center;
     width: 100%;
-    /* margin-left: 30px; */
     margin-bottom: 10px;
 }
 
@@ -156,83 +157,58 @@ main {
     margin-right: 10px  ;
 }
 
-@media screen and (max-width: 1199px) {
-
-    #nossaLogo {
-        width: 60px;
-    }
-
-    .fundo > h1 {
-        font-size: 4em;
-    }
-
-    #logoPorto2 {
-        width: 120px;
-    }
-
-    header a {
-        font-size: 16px; 
-    }
-
-}
-
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 930px) {
 
     #nossaLogo {
         width: 55px;
     }
 
     .fundo > h1 {
-        font-size: 3em;
+        font-size: 4em;
     }
 
-    #logoPorto1 {
-        width: 175px;
+    nav li {
+        display: none;
     }
 
-    #logoPorto2 {
-        width: 110px;
+    .icone-menu-celular {
+        display: block;
+        margin-right: 15px;
     }
 
-    header a {
-        font-size: 12px; 
-    }
-}
-
-@media screen and (max-width: 768px) {
-
-    #nossaLogo {
-        width: 45px;
+    .icone-menu-celular button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
     }
 
-    .fundo > h1 {
-        font-size: 3em;
+    .menu-celular {
+        background-color: #00345A;
     }
 
-    #logoPorto2 {
-        width: 90px;
-    }
-
-    nav {
+    .menu-celular ul {
+        display: flex;
         flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
     }
 
-    header a {
-        font-size: 12px; 
-    }
-}
-
-@media screen and (max-width: 576px) {
-
-    #nossaLogo {
-        width: 40px;
+    .menu-celular li {
+        display: block;
+        padding-top: 1.2rem;
     }
 
-    .fundo > h1 {
-        font-size: 2.5em;
+    .open {
+        display: block;
     }
 
-    header a {
-        font-size: 8px; 
+    footer p {
+        font-size: 0.8em;
     }
+    
+    footer > a {
+        font-size: 1.5em;
+    }
+
+
 }

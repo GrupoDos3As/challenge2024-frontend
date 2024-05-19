@@ -31,7 +31,6 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
 }
 
 header ul {
@@ -39,7 +38,8 @@ header ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 20px;
+    gap: 15px;
+    margin-right: 20px;
 }
 
 header li {
@@ -57,6 +57,14 @@ header a {
 
 header a:hover {
     text-decoration: underline;
+}
+
+.icone-menu-celular {
+    display: none;
+}
+
+.menu-celular {
+    display: none;
 }
 
 body {
@@ -129,63 +137,48 @@ form > a {
     border-radius: 50px;
 }
 
-@media screen and (max-width: 1199px) {
-
-    #nossaLogo {
-        width: 60px;
-    }
-
-    #logoPorto {
-        width: 120px;
-    }
-
-    header a {
-        font-size: 16px; 
-    }
-}
-
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 930px) {
 
     #nossaLogo {
         width: 55px;
     }
 
-    #logoPorto {
-        width: 110px;
+    .fundo > h1 {
+        font-size: 4em;
     }
 
-    header a {
-        font-size: 12px; 
+    nav li {
+        display: none;
     }
 
-}
-
-@media screen and (max-width: 768px) {
-
-    #nossaLogo {
-        width: 45px;
+    .icone-menu-celular {
+        display: block;
+        margin-right: 15px;
     }
 
-    #logoPorto {
-        width: 90px;
+    .icone-menu-celular button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
     }
 
-    nav {
+    .menu-celular {
+        background-color: #00345A;
+    }
+
+    .menu-celular ul {
+        display: flex;
         flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
     }
 
-    header a {
-        font-size: 12px; 
-    }
-}
-
-@media screen and (max-width: 576px) {
-
-    #nossaLogo {
-        width: 40px;
+    .menu-celular li {
+        display: block;
+        padding-top: 1.2rem;
     }
 
-    header a {
-        font-size: 8px; 
+    .open {
+        display: block;
     }
 }
