@@ -115,28 +115,28 @@ header a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 5%;
     margin-bottom: 15%;
-    width: 40%;
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .divSobreNos p {
     color: #fff;
-    font-size: 35px;
-    width: 80%;
+    font-size: 2.2rem;
+    width: 350px;
     text-align: center;
 }
 
 .divSobreNos a {
     padding: 10px 35px;
     border-radius: 10px;
-    font-size: 45px;
+    font-size: 2.8rem;
     background-color: #0060af;
     color: white;
-    text-decoration: underline 2px #8DD1F1;
+    text-decoration: none;
 }
 
 footer {
@@ -210,12 +210,45 @@ footer > a:hover{
         display: block;
     }
 
+    .divSobreNos{
+        min-height: 300px;
+        width: 460px;
+    }
+
+    .divSobreNos p {
+        font-size: 1.8rem;
+        width: 300px;
+    }
+    
+    .divSobreNos a {
+        font-size: 2.4rem;
+    }
+
     footer p {
         font-size: 0.8em;
     }
     
     footer > a {
         font-size: 1.5em;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    
+    .divSobreNos{
+        min-height: 220px;
+        width: 300px;
+        justify-content: space-around;
+    }
+
+    .divSobreNos p {
+        font-size: 1.3rem;
+        width: 200px;
+    }
+    
+    .divSobreNos a {
+        font-size: 1.8rem;
     }
 
 }
