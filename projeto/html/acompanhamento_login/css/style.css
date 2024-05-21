@@ -18,7 +18,7 @@
 }
 
 #logoPorto {
-    width: 150px;
+    width: 140px;
 }
 
 #iconePerfil {
@@ -86,55 +86,67 @@ h1 {
     margin-top: 90px;
 }
 
-.informacao {
-    margin-top: 150px;
+form {
+    margin-top: 40px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
-    justify-content: start;
-    gap: 70px;
+    justify-content: center;
+    gap: 50px;
 }
 
-form input {
-    width: 380px;
-    outline: unset;
-}
-
-form label {
-    text-transform: uppercase;
-    color: #D6F1FB;
-    font-size: 22;
-    margin-bottom: 10px;
+.informacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
 fieldset {
     display: flex;
     flex-direction: column;
     border: none;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
+    width: 20%;
     align-items: center;
+    margin-top: 2.5rem;
 }
 
-form > a {
-    margin-top: 70px;
+label {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.formularios {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    width: 290px;
+}
+
+#botao {
     border: none;
     background-color: #0094FF;
-    font-size: 22px;
+    font-size: 18px;
     text-transform: uppercase;
-    color: #00345A;
-    width: auto;
     padding: 15px 40px;
     font-weight: 700;
     text-decoration: none;
+    color: #00345A;
 }
 
-.formulario{
-    padding: 5px;
-    border-radius: 50px;
+@media screen and (max-width: 1200px) {
+
+    .informacao {
+        justify-content: space-around;
+        gap: 0;
+    }
+
+    fieldset {
+        width: 35%;
+    }
 }
 
 @media screen and (max-width: 930px) {
@@ -180,5 +192,24 @@ form > a {
 
     .open {
         display: block;
+    }
+}
+
+@media screen and (max-width: 880px) {
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    .informacao {
+        flex-direction: column;
+    }
+
+    .formularios {
+        width: 240px;
+    }
+
+    #botao {
+        font-size: 16px;
     }
 }

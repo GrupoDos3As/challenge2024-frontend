@@ -18,7 +18,7 @@
 }
 
 #logoPorto {
-    width: 150px;
+    width: 140px;
 }
 
 #iconePerfil {
@@ -82,21 +82,22 @@ h1 {
 }
 
 main {
+    margin-top: -100px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 200px;
+    gap: 80px;
 }
 
 p {
     margin-top: 200px;
     font-size: 37px; 
-    width: 32%;
+    width: 500px;
     text-align: center;
     color: #fff;
 }
 
-main a {
+#volta {
     text-decoration: none;
     background-color: #0094FF;
     font-size: 22px;
@@ -151,4 +152,31 @@ main a {
     .open {
         display: block;
     }
+}
+
+@media screen and (max-width: 650px) {
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        margin-top: 200px;
+        font-size: 1.3em; 
+        width: 300px;
+        text-align: center;
+        color: #fff;
+    }
+    
+    #volta {
+        text-decoration: none;
+        background-color: #0094FF;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #00345A;
+        width: auto;
+        padding: 10px 20px;
+        font-weight: 700;
+    }
+
 }

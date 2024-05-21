@@ -18,7 +18,7 @@
 }
 
 #logoPorto {
-    width: 130px;
+    width: 140px;
 }
 
 nav {
@@ -115,7 +115,7 @@ label {
     text-transform: uppercase;
 }
 
-input {
+.formularios {
     margin: 0.6rem 0;
     padding: 0.8rem 1.2rem;
     border: none;
@@ -124,16 +124,13 @@ input {
     width: 290px;
 }
 
-button {
+#botao {
     border: none;
     background-color: #0094FF;
     font-size: 22px;
     text-transform: uppercase;
     padding: 15px 40px;
     font-weight: 700;
-}
-
-button a {
     text-decoration: none;
     color: #00345A;
 }
@@ -194,7 +191,7 @@ button a {
         font-size: 35px;
     }
 
-    button {
+    #botao {
         font-size: 18px;
     }
 

@@ -8,3 +8,16 @@ function mostrarMenu() {
         document.querySelector("#icone").src = "../../img/close_white_36dp.svg"
     }
 }
+
+const form = document.querySelector('#form')
+
+form.addEventListener('submit', (e)=> {
+    e.preventDefault();
+
+    const formData = new FormData(form);
+    const dadosAcompanhamento = Object.fromEntries(formData);
+
+    console.log(dadosAcompanhamento);
+
+    window.location = "../acompanhamento/acompanhamento.html"
+})

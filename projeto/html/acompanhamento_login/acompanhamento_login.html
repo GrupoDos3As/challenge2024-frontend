@@ -10,7 +10,6 @@
 </head>
 <body>
     <header>
-        <a href="../integrantes/integrantes.html"><img src="../../img/nossaLogo.png" alt="Logo do nosso site" id="nossaLogo"></a>
         <nav>
             <a href="../../index.html"><img src="../../img/logo_branca.png" alt="Logo da Porto" id="logoPorto"></a>
             <ul>
@@ -40,26 +39,24 @@
         <h1>Acompanhamento</h1>
     </header>
     <main>
-        <form action="" method="get">
+        <a href="../integrantes/integrantes.html"><img src="../../img/nossaLogo.png" alt="Logo do nosso site" id="nossaLogo"></a>
+        <form action="" method="post" id="form">
             <div class="informacao">
                 <fieldset>
                     <label for="placaId">Placa</label>
-                    <input type="text" name="placa" id="placaId" class="formulario">
+                    <input type="text" name="placa" id="placaId" class="formularios" placeholder="Informe a placa do carro" required>
                 </fieldset>
                 <fieldset>
                     <label for="loginId">Login</label>
-                    <input type="text" name="login" id="loginId" class="formulario">
+                    <input type="text" name="login" id="loginId" class="formularios" placeholder="Digite seu usuário" required>
                 </fieldset>
                 <fieldset>
                     <label for="senhaId">Senha</label>
-                    <input type="password" name="senha" id="senhaId" class="formulario">
+                    <input type="password" name="senha" id="senhaId" class="formularios" placeholder="Informe sua senha" required>
                 </fieldset>
             </div>
-            <a href="../acompanhamento/acompanhamento.html">Acompanhar</a>
+            <input id="botao" type="submit" value="Acompanhar">
         </form>
     </main>
-    <footer>
-        
-    </footer>
 </body>
 </html>

@@ -43,7 +43,7 @@
 }
 
 #logoPorto2 {
-    width: 130px;
+    width: 140px;
 }
 
 #iconePerfil {
@@ -95,15 +95,15 @@ header a:hover {
 main {
     display: flex;
     flex-direction: column;
-    gap: 80vh;
+    gap: 50vh;
 }
 
 #bot {
-    width: 95px;
+    width: 75px;
 }
 
 #maisInfo {
-    width: 95px;
+    width: 75px;
 }
 
 #enviar {
@@ -131,11 +131,10 @@ main {
 }
 
 .chat > p {
-    width: 25%;
-    padding: 20px 0px;
+    padding: 15px 20px;
     text-align: center;
-    border-radius: 20px;
-    font-size: 24px;
+    border-radius: 12px;
+    font-size: 1.2rem;
     color: #fff;
     background-color: #0066FF;
 }
@@ -200,6 +199,28 @@ main {
 
     .open {
         display: block;
+    }
+
+    #bot {
+        width: 55px;
+    }
+    
+    #maisInfo {
+        width: 55px;
+    }
+
+    .chat > p {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
+    .mensagem > input {
+        width: 80%;
+        height: 20px;
+    }
+
+    #enviar {
+        width: 30px;
     }
 
     footer p {

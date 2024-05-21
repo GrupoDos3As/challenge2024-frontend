@@ -40,7 +40,7 @@
 }
 
 #logoPorto2 {
-    width: 130px;
+    width: 140px;
 }
 
 #iconePerfil {
@@ -91,7 +91,6 @@ header a:hover {
 
 main {
     width: 100%;
-    min-height: 80vh;
 }
 
 .foto img {
@@ -99,23 +98,24 @@ main {
 }
 
 .container{
-    margin-top: 7%;
+    margin: 13% 0px;
     background-color: #8DD1F1;
     display: flex;
     justify-content: center;
     padding: 30px;
-    gap: 15px;
+    gap: 30px;
 }
 
 .foto {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 25%;
+    width: 280px;
     margin-bottom: 20px;
 }
 
 .foto a {
+    color: #00098b;
     margin-top: 20px;
     font-size: 22px;
 }
@@ -146,7 +146,7 @@ main {
 
 .nome input, .email input {
     margin-top: 5px;
-    width: 25vw;
+    width: 300px;
     height: 30px;
     border: none;
     padding: 0px;
@@ -235,6 +235,30 @@ footer > a:hover{
         display: block;
     }
 
+    .container {
+        margin: 15.5% 0;
+    }
+
+    .foto {
+        width: 200px;
+    }
+
+    .foto a {
+        font-size: 1.2em;
+    }
+
+    .infos label {
+        font-size: 1.2em;
+    }
+
+    .nome input, .email input {
+        width: 220px;
+    }
+
+    .botao {
+        font-size: 1em;
+    }
+
     footer p {
         font-size: 0.8em;
     }
@@ -243,4 +267,11 @@ footer > a:hover{
         font-size: 1.5em;
     }
 
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        align-items: center;
+        flex-direction: column;
+    }
 }

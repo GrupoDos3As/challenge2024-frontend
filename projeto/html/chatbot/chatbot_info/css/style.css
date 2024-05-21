@@ -42,7 +42,7 @@
 }
 
 #logoPorto2 {
-    width: 130px;
+    width: 140px;
 }
 
 #iconePerfil {
@@ -99,7 +99,7 @@ main {
 }
 
 #maisInfo {
-    width: 95px;
+    width: 75px;
     position: absolute;
     margin-top: 30px;
     left: 30px;
@@ -113,7 +113,7 @@ main {
 }
 
 .container > h2 {
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: bold;
     color: #00345A;
     margin-bottom: 50px;
@@ -121,13 +121,13 @@ main {
 }
 
 .container h3 {
-   font-size: 32px; 
+   font-size: 1.5rem; 
    color: #00345A;
    margin-bottom: 30px;
 }
 
 .container p {
-    font-size: 26px;
+    font-size: 1.2rem;
     color: #00345A;
     margin-bottom: 30px;
 }
@@ -139,9 +139,9 @@ main a {
     text-transform: uppercase;
     font-weight: 670;
     font-size: 18px;
-    padding: 20px 30px;
-    border-radius: 13px;
-    margin-bottom: 50px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    margin-bottom: 100px;
 }
 
 footer {
@@ -215,6 +215,35 @@ footer > a:hover{
         display: block;
     }
 
+    #maisInfo {
+        width: 65px;
+    }
+
+    .container {
+        padding: 30px;
+        width: 500px;
+    }
+    
+    .container > h2 {
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+    }
+    
+    .container h3 {
+       font-size: 1.2rem; 
+       margin-bottom: 10px;
+    }
+    
+    .container p {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    main a {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
     footer p {
         font-size: 0.8em;
     }
@@ -223,5 +252,29 @@ footer > a:hover{
         font-size: 1.5em;
     }
 
+
+}
+
+@media screen and (max-width: 620px) {
+    
+    .container {
+        padding: 30px;
+        width: 300px;
+    }
+    
+    .container > h2 {
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+    }
+    
+    .container h3 {
+       font-size: 1rem; 
+       margin-bottom: 5px;
+    }
+    
+    .container p {
+        font-size: 0.8rem;
+        margin-bottom: 15px;
+    }
 
 }
