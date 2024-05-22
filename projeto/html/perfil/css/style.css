@@ -26,10 +26,10 @@
     bottom: 100px;
 }
 
-.fundo > h1 {
+.fundo h1 {
     color: #fff;
     text-transform: uppercase;
-    font-size: 85px;
+    font-size: 5em;
 }
 
 #logoPorto1 {
@@ -41,10 +41,6 @@
 
 #logoPorto2 {
     width: 140px;
-}
-
-#iconePerfil {
-width: 12px;
 }
 
 nav {
@@ -196,7 +192,11 @@ footer > a:hover{
         width: 55px;
     }
 
-    .fundo > h1 {
+    #logoPorto1 {
+        width: 165px;
+    }
+
+    .fundo h1 {
         font-size: 4em;
     }
 
@@ -267,6 +267,21 @@ footer > a:hover{
         font-size: 1.5em;
     }
 
+}
+
+@media screen and (max-width: 670px) {
+
+    #nossaLogo {
+        width: 40px;
+    }
+
+    #logoPorto1 {
+        width: 135px;
+    }
+
+    .fundo h1 {
+        font-size: 3em;
+    }
 }
 
 @media screen and (max-width: 576px) {

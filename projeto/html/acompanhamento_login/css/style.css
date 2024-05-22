@@ -21,10 +21,6 @@
     width: 140px;
 }
 
-#iconePerfil {
-    width: 12px;
-}
-
 nav {
     background-color: #00345A;
     display: flex;
@@ -155,10 +151,6 @@ label {
         width: 55px;
     }
 
-    .fundo > h1 {
-        font-size: 4em;
-    }
-
     nav li {
         display: none;
     }
@@ -211,5 +203,12 @@ label {
 
     #botao {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+
+    #nossaLogo {
+        width: 40px;
     }
 }

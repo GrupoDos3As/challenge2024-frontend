@@ -141,10 +141,6 @@ label {
         width: 55px;
     }
 
-    .fundo > h1 {
-        font-size: 4em;
-    }
-
     nav li {
         display: none;
     }
@@ -183,10 +179,6 @@ label {
 
 @media screen and (max-width: 866px) {
 
-    #nossaLogo {
-        width: 45px;
-    }
-
     h1 {
         font-size: 35px;
     }
@@ -201,5 +193,12 @@ label {
 
     .informacao {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 670px) {
+
+    #nossaLogo {
+        width: 40px;
     }
 }

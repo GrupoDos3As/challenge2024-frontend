@@ -30,8 +30,8 @@
     bottom: 80px;
 }
 
-.fundo > h1 {
-    font-size: 5em;
+.fundo h1 {
+    font-size: 5rem;
     color: #fff;
     text-transform: uppercase;
 }
@@ -218,8 +218,16 @@ footer > a:hover{
         width: 55px;
     }
 
-    .fundo > h1 {
+    #logoPorto1 {
+        width: 165px;
+    }
+
+    .fundo h1 {
         font-size: 4em;
+    }
+
+    .fundo p {
+        font-size: 1.2rem;
     }
 
     nav li {
@@ -288,6 +296,18 @@ footer > a:hover{
 
     #nossaLogo {
         width: 40px;
+    }
+
+    #logoPorto1 {
+        width: 135px;
+    }
+
+    .fundo h1 {
+        font-size: 3em;
+    }
+
+    .fundo p {
+        font-size: 1rem;
     }
 
     h2{

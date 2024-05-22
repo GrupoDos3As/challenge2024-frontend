@@ -29,7 +29,7 @@
     bottom: 100px;
 }
 
-.fundo :nth-child(1) {
+.fundo h1 {
     color: #fff;
     text-transform: uppercase;
     font-size: 85px;
@@ -162,7 +162,11 @@ main {
         width: 55px;
     }
 
-    .fundo > h1 {
+    #logoPorto1 {
+        width: 165px;
+    }
+
+    .fundo h1 {
         font-size: 4em;
     }
 
@@ -231,5 +235,19 @@ main {
         font-size: 1.5em;
     }
 
+}
 
+@media screen and (max-width: 670px) {
+
+    #nossaLogo {
+        width: 40px;
+    }
+
+    #logoPorto1 {
+        width: 135px;
+    }
+
+    .fundo h1 {
+        font-size: 3em;
+    }
 }

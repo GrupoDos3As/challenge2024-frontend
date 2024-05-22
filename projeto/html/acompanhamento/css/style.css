@@ -245,10 +245,6 @@ footer > a:hover{
         width: 55px;
     }
 
-    .fundo > h1 {
-        font-size: 4em;
-    }
-
     nav li {
         display: none;
     }
@@ -292,6 +288,13 @@ footer > a:hover{
         font-size: 1.5em;
     }
 
+}
+
+@media screen and (max-width: 670px) {
+
+    #nossaLogo {
+        width: 40px;
+    }
 }
 
 @media screen and (max-width: 720px) {

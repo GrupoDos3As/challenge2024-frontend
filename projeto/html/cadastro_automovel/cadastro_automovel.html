@@ -17,7 +17,7 @@
                 <li><a href="../acompanhamento_login/acompanhamento_login.html">Acompanhamento</a></li>
                 <li><a href="../registros/registros.html">Registros</a></li>
                 <li><a href="../chatbot/bot.html">Assistente</a></li>
-                <li><a href="../revisao/revisao.html">Autoavaliação</a></li>
+                <li><a href="../revisao/revisao.html">Revisão</a></li>
                 <li><a href="../inicio/inicio.html">Entrar</a></li>
                 <li><a href="../perfil/perfil.html"><i class="fa-regular fa-user"></i></a></li>
             </ul>
@@ -31,7 +31,7 @@
                 <li><a href="../acompanhamento_login/acompanhamento_login.html">Acompanhamento</a></li>
                 <li><a href="../registros/registros.html">Registros</a></li>
                 <li><a href="../chatbot/bot.html">Assistente</a></li>
-                <li><a href="../revisao/revisao.html">Autoavaliação</a></li>
+                <li><a href="../revisao/revisao.html">Revisão</a></li>
                 <li><a href="../inicio/inicio.html">Entrar</a></li>
                 <li><a href="../perfil/perfil.html"><i class="fa-regular fa-user"></i></a></li>
             </ul>
@@ -40,33 +40,35 @@
     </header>
     <main>
         <a href="../integrantes/integrantes.html"><img src="../../img/nossaLogo.png" alt="Logo do nosso site" id="nossaLogo"></a>
-        <div class="container">
-            <form action="" method="post">
-                <div class="informacao">
-                    <fieldset>
-                        <label for="placaId">Placa</label>
-                        <input type="text" name="placa" id="placaId" class="formularios" placeholder="Digite a placa do veículo" required>
-                    </fieldset>
-                    <fieldset>
-                        <label for="cnhId">CNH</label>
-                        <input type="text" name="cnh" id="cnhId" class="formularios" placeholder="Informe o número da cnh" required>
-                    </fieldset>
-                    <fieldset>
-                        <label for="vencimentoCnhId">Vencimento CNH</label>
-                        <input type="date" name="vencimentoCnh" id="vencimentoCnhId" class="formularios" placeholder="Informe o vencimento de sua cnh" required>
-                    </fieldset>
-                    <fieldset>
-                        <label for="modeloId">Modelo do Automóvel</label>
-                        <input type="text" name="modelo" id="modeloId" class="formularios" placeholder="Digite o modelo do automóvel" required>
-                    </fieldset>
-                    <fieldset>
-                        <label for="anoDoAutomovelId">Ano de aquisição do automóvel</label>
-                        <input type="text" name="anoDoAutomovel" id="anoDoAutomovelId" class="formularios" placeholder="Informe o ano de aquisição do automóvel">
-                    </fieldset>
-                </div>
-                <input id="botao" type="submit" value="Finalizar">
-            </form>
-        </div>
+        <section>
+            <div class="container">
+                <form action="" method="post">
+                    <div class="informacao">
+                        <fieldset>
+                            <label for="placaId">Placa</label>
+                            <input type="text" name="placa" id="placaId" class="formularios" placeholder="Digite a placa do veículo" required>
+                        </fieldset>
+                        <fieldset>
+                            <label for="cnhId">CNH</label>
+                            <input type="text" name="cnh" id="cnhId" class="formularios" placeholder="Informe o número da cnh" required>
+                        </fieldset>
+                        <fieldset>
+                            <label for="vencimentoCnhId">Vencimento CNH</label>
+                            <input type="date" name="vencimentoCnh" id="vencimentoCnhId" class="formularios" placeholder="Informe o vencimento de sua cnh" required>
+                        </fieldset>
+                        <fieldset>
+                            <label for="modeloId">Modelo do Automóvel</label>
+                            <input type="text" name="modelo" id="modeloId" class="formularios" placeholder="Digite o modelo do automóvel" required>
+                        </fieldset>
+                        <fieldset>
+                            <label for="anoDoAutomovelId">Ano de aquisição do automóvel</label>
+                            <input type="text" name="anoDoAutomovel" id="anoDoAutomovelId" class="formularios" placeholder="Informe o ano de aquisição do automóvel">
+                        </fieldset>
+                    </div>
+                    <input id="botao" type="submit" value="Finalizar">
+                </form>
+            </div>
+        </section>
     </main>
 </body>
 </html>
