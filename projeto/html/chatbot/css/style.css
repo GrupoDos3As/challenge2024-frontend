@@ -92,7 +92,7 @@ header a:hover {
     display: none;
 }
 
-main {
+section {
     display: flex;
     flex-direction: column;
     gap: 50vh;
