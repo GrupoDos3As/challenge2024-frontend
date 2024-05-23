@@ -1,3 +1,5 @@
+// função - mostrar menu
+
 function mostrarMenu() {
     let menuCelular = document.querySelector(".menu-celular")
     if (menuCelular.classList.contains("open")) {
