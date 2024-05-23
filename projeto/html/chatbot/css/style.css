@@ -137,6 +137,8 @@ main {
     font-size: 1.2rem;
     color: #fff;
     background-color: #0066FF;
+    margin-top: 20em;
+
 }
 
 .mensagem {
@@ -151,10 +153,12 @@ main {
     border: none;
     background-color: #a3a3a3;
     width: 90%;
+    padding: 8px;
     border-radius: 30px;
     height: 30px;
     margin-right: 10px  ;
 }
+
 
 @media screen and (max-width: 930px) {
 
