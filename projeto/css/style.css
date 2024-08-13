@@ -106,32 +106,6 @@ h2{
     margin-bottom: 2%;
 }
 
-.falarBot {
-    display: inline;
-    background-color: #00345A;
-    padding: 20px;
-    border-radius: 14px;
-    font-size: 1em;
-    text-transform: uppercase;
-}
-
-.falarBot a {
-    text-decoration: none;
-    color: #fff;
-    margin-left: 5px;
-}
-
-.falarBot i {
-    color: #bcdeee8a;
-    font-size: 25px;
-    margin-right: 5px;
-}
-
-strong{
-    color: #156BB2;
-    text-decoration: dashed;
-}
-
 #falarPorto{
     color: #8DD1F1;
     font-size: 30px;
@@ -153,29 +127,143 @@ strong{
 .ideias{
     border-radius: 10px;
     background-color: #8DD1F1;
+    height: 430px;
     padding: 2%;
     text-align: center;
     width: 300px;
-}
-
-.fundoIdeias{
-    height: 400px;
-    background-color: #00345A;
-    margin-top: -100px;
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-.fundoIdeias p {
-    color: white;
-    font-size: 2em;
-    width: 500px;
-    margin: 100px 30px;
+.ideias p {
+    width: 50%;
+    color:#00345A;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+#caderno {
+    width: 300px;
+}
+
+#relatorio {
+    width: 250px;
+}
+
+.info-diagnostico {
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.diagnostico{
+    margin-top: 100px;
+    background-color: #00345A;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 450px;
+}
+
+.info-diagnostico p {
+    width: 70%;
     text-align: end;
+    color: white;
+    font-size: 2.3em;
 }
 
-strong#fundoIdeiasLabel{
+.info-diagnostico p strong{
+    color: #8DD1F1;
+}
+
+.info-diagnostico a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.btn-diagnostico {
+    background-color: #0094FF;
+    border-radius: 12px;
+    padding: 15px 30px;
+    margin: auto;
+}
+
+.revisao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+    padding-top: 100px;
+}
+
+.info-revisao p {
+    width: 60%;
+    text-align: start;
+    color: #00345A;
+    font-size: 2.3em;
+}
+
+.info-revisao p strong{
+    color: #8DD1F1;
+}
+
+.info-revisao {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 50px;
+}
+
+.info-revisao a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.btn-revisao {
+    background-color: #0094FF;
+    border-radius: 12px;
+    padding: 10px 50px;
+    margin-left: 200px;
+}
+
+#chave-fenda {
+    width: 250px;
+}
+
+.fundo-chave {
+    margin-left: 200px;
+    background-color: #8DD1F1;
+    padding: 40px 00px;
+    border-radius: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.final-sec {
+    padding: 200px 0px;
+    background-color: #01B3E3;
+}
+
+.final-sec p {
+    margin-right: 100px;
+    float: right;
+    width: 30%;
+    text-align: end;
+    color: white;
+    font-size: 2.3em;
+}
+
+.final-sec p strong{
     color: #8DD1F1;
 }
 
@@ -269,15 +357,6 @@ footer > a:hover{
         font-size: 3rem;
     }
 
-    .falarBot {
-        font-size: 15px;
-        padding: 15px;
-    }
-
-    .falarBot i {
-        font-size: 20px;
-    }
-
     .fundoIdeias p {
         font-size: 2rem;
     }
@@ -312,15 +391,6 @@ footer > a:hover{
 
     h2{
         font-size: 2.3rem;
-    }
-
-    .falarBot {
-        font-size: 0.7em;
-        padding: 12px;
-    }
-
-    .falarBot i {
-        font-size: 1.5em;
     }
     
     .divIdeias{
