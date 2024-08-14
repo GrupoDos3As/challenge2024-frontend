@@ -21,12 +21,14 @@ body {
     background-color: #00345A;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 }
 
 .login {
-    background-color: #fff;
+    background-color: #074C7E   ;
     border-radius: 32px;
     display: flex;
     flex-direction: column;
@@ -41,9 +43,15 @@ body {
 }
 
 h1 {
+    font-size: 1.5rem;
+    color: #8DD1F1;
+}
+
+h2 {
     margin: auto;   
     font-weight: bold;
     font-size: 2em;
+    color: #fff;
 }
 
 form {
@@ -53,7 +61,6 @@ form {
 }
 
 .caixa {
-    border: 1px solid gray;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -74,7 +81,7 @@ fieldset {
 
 .caixa label {
     margin: 0px 15px;
-    color: #0094FF;
+    color: #D6F1FBB2;
     font-size: 1em;
 }
 
@@ -82,12 +89,12 @@ fieldset {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    color: #333;
+    color: #D6F1FBB2;
     font-size: 1.2em;
 }
 
 .extra a {
-    align-self: flex-end;
+    align-self: center;
 }
 
 .textos a {
@@ -121,7 +128,11 @@ fieldset {
     }
 
     h1 {
-        font-size: 1.5em;
+        font-size: 1.2em;
+    }
+
+    h2 {
+        font-size: 1.6em;
     }
 
     .caixa label {
